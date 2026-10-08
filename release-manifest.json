@@ -1,0 +1,35 @@
+{
+  "tag": "v0.4.0",
+  "files": [
+    {
+      "name": "wildbound-game-v0.4.0.zip",
+      "bytes": 63844041,
+      "sha256": "7e328df280cb1133c2e92b20adb95882efe6f04770a31761f2d8f83754881ae9"
+    },
+    {
+      "name": "wildbound-launch-trailer.mp4",
+      "bytes": 37083531,
+      "sha256": "45b5af6667f420e955a6b1fe20232c8b1faa5592b5eac45bf6e57a3c911692af"
+    },
+    {
+      "name": "wildbound-orchestral-score.mp3",
+      "bytes": 1202023,
+      "sha256": "3752ec528fdc3fc9e2b9806fdbf011e51c0fae5492e05e420133fc1593eceba9"
+    },
+    {
+      "name": "wildbound-launch-poster.png",
+      "bytes": 1735941,
+      "sha256": "eb4863f5b7dc2f2f463bbda78aa0c713d8eaafc877ba35545277eb31bcafedae"
+    },
+    {
+      "name": "wildbound-trailer-source.zip",
+      "bytes": 61423854,
+      "sha256": "f90236ec83a6e7d34d1443cebc0bb866bbaa53f3852d136a9ec9c41bb36fa29c"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 473,
+      "sha256": "9a2b07c8141396d3006267d8ddb50741dd6386c88bd33190a316bb797fe03b5f"
+    }
+  ]
+}

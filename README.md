@@ -15,8 +15,8 @@
 </div>
 
 <!-- IMPORT-STATUS:START -->
-> [!IMPORTANT]
-> **The hosted game is available; the GitHub distribution import is still in progress.** This repository currently contains its documentation, screenshot gallery, and setup material. The prepared game and launch-media archives are not yet published as GitHub release assets. Until `game/` and the package scripts have been imported, cloning this repository alone will not install the game. Local-play and production instructions below describe the prepared distribution, not files already guaranteed to be present here.
+> [!TIP]
+> **Field Edition 04 is available to play, clone, and download.** The repository contains the complete prebuilt game, original runtime assets, editable launch-trailer production, documentation, and distribution tests. [Download the verified v0.4.0 release](https://github.com/itsryanlenk/wildbound-aster/releases/tag/v0.4.0). The original unbundled game source is not part of this recovered distribution.
 <!-- IMPORT-STATUS:END -->
 
 ## Welcome to Aster
@@ -190,7 +190,7 @@ Treat exported saves as personal files. They can contain your chosen player name
 
 ## Sound, motion, and comfort
 
-The prepared build contains **225 original audio assets**: 151 creature cries, 14 music tracks, 55 sound effects, and five reward themes. Music changes with the region or battle context; the field guide lets you preview creature cries.
+The build contains **225 original audio assets**: 151 creature cries, 14 music tracks, 55 sound effects, and five reward themes. Music changes with the region or battle context; the field guide lets you preview creature cries.
 
 Settings offers separate **Master**, **Music**, **Battle & World**, **Creature Cries**, and **Interface** volume controls. Browser audio may wait for a click, tap, or key press before starting.
 
@@ -198,22 +198,22 @@ Reduced-motion support and a story transcript are included. Enemy warnings and i
 
 ## Downloads and publication status
 
-The public play link is available at the top of this page. **GitHub Releases is the intended home for the downloadable package, but the release assets have not yet been uploaded.** The table below identifies the prepared files; it is not a set of broken download buttons.
+**The game and launch materials are published as ordinary GitHub Release attachments.** These links do not depend on a chat session.
 
-| Prepared file | Purpose |
+| Download | Purpose |
 |---|---|
-| `wildbound-game-v0.4.0.zip` | Complete prebuilt game for local play or static hosting |
-| `wildbound-launch-trailer.mp4` | Finished 50-second, 720p launch film |
-| `wildbound-orchestral-score.mp3` | The standalone orchestral score, *Aster Takes Flight* |
-| `wildbound-launch-poster.png` | Launch artwork with the branded play address |
-| `wildbound-trailer-source.zip` | Editable production project, source clips, storyboard, and audio |
-| `SHA256SUMS.txt` | Integrity checksums for the release downloads |
+| [Standalone game ZIP](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-game-v0.4.0.zip) | Complete prebuilt game for local play or static hosting |
+| [Launch trailer — MP4](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-launch-trailer.mp4) | Finished 50-second, 720p launch film |
+| [Orchestral soundtrack — MP3](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-orchestral-score.mp3) | Aster Takes Flight, the standalone orchestral score |
+| [Launch poster — PNG](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-launch-poster.png) | Launch artwork with the branded play address |
+| [Editable trailer project — ZIP](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-trailer-source.zip) | Production scripts, source clips, storyboard, and audio |
+| [SHA-256 checksums](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/SHA256SUMS.txt) | Integrity hashes for the release downloads |
 
-Check the [actual Releases page](https://github.com/itsryanlenk/wildbound-aster/releases) for publication status. A repository's existence, a release title, or a README entry does not mean that an attachment is available yet.
+[View the release and its complete asset list](https://github.com/itsryanlenk/wildbound-aster/releases/tag/v0.4.0). The automatically generated GitHub source archives contain this distribution repository, not the missing original game-engine source checkout.
 
 ## Local play and self-hosting
 
-> These instructions apply **after the prepared distribution has been imported**, or from an extracted standalone game archive. They will not work against a documentation-only checkout.
+Clone this repository or download the standalone game ZIP. The prebuilt game is ready to serve; no game compilation step is required.
 
 ### From the populated repository
 
@@ -239,7 +239,7 @@ From the extracted standalone ZIP, run its included `node serve.mjs`, or serve t
 
 Upload the standalone archive's extracted contents to a static host, retaining the relative layout of `index.html`, `assets/`, `art/`, `audio/`, `sw.js`, `offline-release.json`, and the supplied license notices. The prepared distribution supports a domain root or a subdirectory.
 
-Once the package scripts are present, these commands validate and package it:
+These commands validate and package the checked-in distribution:
 
 ```sh
 npm test
@@ -258,16 +258,20 @@ Reopen the same address to use its installed files offline. Offline installation
 
 ## Launch trailer
 
+[![Watch the Wildbound launch trailer](docs/images/poster.png)](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-launch-trailer.mp4)
+
+[Watch or download the MP4](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-launch-trailer.mp4) · [Download the editable project](https://github.com/itsryanlenk/wildbound-aster/releases/download/v0.4.0/wildbound-trailer-source.zip)
+
 **Aster Takes Flight** accompanies a 50-second launch film at **1280 × 720 / 30 fps**, supplied as **H.264 video with AAC stereo audio**. The film combines the animated opening artwork, exploration, battle sequences, capture, evolution, and the game's sound effects and cries.
 
 Its source clips were captured deterministically from the actual game engine using controlled fixtures and inputs. It is an edited launch film, **not an uninterrupted browser playthrough**. The orchestral score was composed and synthesized locally; no ElevenLabs generation is claimed for the supplied master.
 
-The prepared production package includes a storyboard, source clips, event records, score synthesis, sound mixing, native Canvas/FFmpeg rendering, and an optional Remotion composition. The delivered master used **Canvas and FFmpeg**.
+The production package includes a storyboard, source clips, event records, score synthesis, sound mixing, native Canvas/FFmpeg rendering, and an optional Remotion composition. The delivered master used **Canvas and FFmpeg**.
 
 <details>
-<summary><strong>Edit or re-render the trailer after its source package is imported</strong></summary>
+<summary><strong>Edit or re-render the supplied trailer project</strong></summary>
 
-Install Node.js 22+, Python 3, and FFmpeg/ffprobe from their official sources. From the imported `trailer/` directory:
+Install Node.js 22+, Python 3, and FFmpeg/ffprobe from their official sources. From the `trailer/` directory:
 
 ```sh
 npm install --omit=optional
@@ -289,7 +293,7 @@ The optional Remotion route has additional dependencies and separate licensing. 
 
 ## Project structure and source status
 
-The intended imported layout is:
+The repository layout is:
 
 ```text
 wildbound-aster/
@@ -314,7 +318,7 @@ The repository's screenshot workflow completed the title, companion-selection, e
 
 The recovered package also has prior packaging verification covering its runtime file inventory, 151 sprite files, 151 cry files, checksum manifests, unsafe paths, privacy exclusions, and local-server behavior. Historical Field Edition 04 release notes report gameplay and progression regression checks; those are separate from the screenshot workflow and are not claimed to have been rerun by it.
 
-**Known limits:** physical iOS/Android testing is not exhaustive; screenshots cannot certify animation smoothness, game balance, save reliability on every browser, or the absence of all layout defects. The missing unbundled source limits reproducible engine development. Download publication remains a separate task from documenting the existing game.
+**Known limits:** physical iOS/Android testing is not exhaustive; screenshots cannot certify animation smoothness, game balance, save reliability on every browser, or the absence of all layout defects. The missing unbundled source limits reproducible engine development. The release import additionally verifies downloadable asset bytes and checksums; it is not a new full gameplay or physical-device certification.
 
 ## Troubleshooting
 
@@ -325,7 +329,7 @@ The recovered package also has prior packaging verification covering its runtime
 | Local launch shows a blank page | Use an HTTP server rather than opening `index.html` directly; ensure all relative assets are present |
 | Offline play is not ready | Use the standalone build on HTTPS or localhost and let the full download finish |
 | A menu or control is clipped | Report browser, viewport size, orientation, and zoom; attach a screenshot without private content |
-| A GitHub download is unavailable | Check the actual release attachments; the distribution import is still pending |
+| A GitHub download is unavailable | Open the v0.4.0 Releases page and select the named attachment; check network or browser download restrictions |
 
 ## Contributing and reporting problems
 

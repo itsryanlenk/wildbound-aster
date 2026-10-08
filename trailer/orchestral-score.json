@@ -1,0 +1,50 @@
+{
+  "title": "Aster Takes Flight",
+  "duration": 50,
+  "bpm": 120,
+  "key": "C major / relative A minor",
+  "source": "Original local orchestral synthesis, arranged from the original Aster motif",
+  "externalAudioService": null,
+  "sampleLibraries": null,
+  "instruments": [
+    "bowed violin/viola ensemble",
+    "spiccato strings",
+    "cello/double-bass",
+    "French-horn ensemble",
+    "flute",
+    "harp",
+    "glockenspiel",
+    "timpani",
+    "orchestral bass drum",
+    "snare",
+    "cymbals"
+  ],
+  "sections": [
+    {
+      "start": 0,
+      "name": "Beacon-light prelude"
+    },
+    {
+      "start": 4,
+      "name": "Adventure theme, woodwinds and harp"
+    },
+    {
+      "start": 18,
+      "name": "Action, horns and string ostinato"
+    },
+    {
+      "start": 32,
+      "name": "Heroic return"
+    },
+    {
+      "start": 46,
+      "name": "Tonic cadence"
+    }
+  ],
+  "finite": true,
+  "peak": 0.88,
+  "rmsDbFS": -17.475696193591777,
+  "clippedSamples": 0,
+  "bytes": 6400044,
+  "sha256": "d951e8a5466424db10ae5ea91ad6336bcfd753e99cb663a0a312161db46ee297"
+}

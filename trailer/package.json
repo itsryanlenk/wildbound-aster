@@ -1,0 +1,33 @@
+{
+  "name": "wildbound-launch-trailer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Original Wildbound gameplay trailer: native Canvas/FFmpeg master plus editable Remotion composition.",
+  "scripts": {
+    "render": "node render-trailer.mjs",
+    "preview": "node render-trailer.mjs --scene opener",
+    "prepare:remotion": "node prepare-remotion.mjs",
+    "render:remotion": "node render-remotion.mjs",
+    "typecheck": "tsc --noEmit",
+    "verify:clips": "node verify-clips.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "remotion": "4.0.531",
+    "@remotion/player": "4.0.531",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "optionalDependencies": {
+    "@remotion/bundler": "4.0.531",
+    "@remotion/renderer": "4.0.531"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT",
+  "author": "itsryanlenk"
+}

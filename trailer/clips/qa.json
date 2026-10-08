@@ -1,0 +1,51 @@
+{
+  "status": "final",
+  "verified": 7,
+  "totalSeconds": 44,
+  "clips": [
+    {
+      "id": "01-explore",
+      "duration": 7,
+      "frames": 210,
+      "bytes": 14219600
+    },
+    {
+      "id": "02-discover",
+      "duration": 6,
+      "frames": 180,
+      "bytes": 3065715
+    },
+    {
+      "id": "03-battle",
+      "duration": 7,
+      "frames": 210,
+      "bytes": 3219945
+    },
+    {
+      "id": "04-capture",
+      "duration": 7,
+      "frames": 210,
+      "bytes": 7854392
+    },
+    {
+      "id": "05-beacon",
+      "duration": 6,
+      "frames": 180,
+      "bytes": 3244518
+    },
+    {
+      "id": "06-save",
+      "duration": 5,
+      "frames": 150,
+      "bytes": 7453214
+    },
+    {
+      "id": "07-evolution",
+      "duration": 6,
+      "frames": 180,
+      "bytes": 924761
+    }
+  ],
+  "actualCaptureAt": 2.9,
+  "actualEvolutionAt": 2.4
+}

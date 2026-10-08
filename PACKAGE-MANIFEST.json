@@ -1,0 +1,2701 @@
+{
+  "format": 1,
+  "edition": "04",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 177,
+      "sha256": "387b6b55d250426393783102aaf4a34c763c4366cc68cc07e4b86a65c7266482"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.yml",
+      "bytes": 1101,
+      "sha256": "095055713c4e1830b889509c7a0782727b0e64bad4f593b2944d92a4cb4e6cf7"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 28,
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature.yml",
+      "bytes": 379,
+      "sha256": "23e1d70576d5b9a61aa61b5a52d087855f1f6919c537cbb1fa19012d89c2256a"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 248,
+      "sha256": "82d5217ee12172fd66907ae8d12efa0ddcdf06d10d80d6ca18bab23f4d50fd5a"
+    },
+    {
+      "path": ".github/scripts/capture-gallery.mjs",
+      "bytes": 4558,
+      "sha256": "603ba3b5366ccce20c6b2150b44ef3db46ed6f16e3cf13a4096e705d3ca0f483"
+    },
+    {
+      "path": ".github/workflows/check-distribution-source.yml",
+      "bytes": 1639,
+      "sha256": "51d286672f7ec05bdeed8982c0aca107c46826dc8f383f203dde7e1c9208fd56"
+    },
+    {
+      "path": ".github/workflows/readme-gallery.yml",
+      "bytes": 2445,
+      "sha256": "1652ae6f56e60ededad2968536b3c84e6455f2ec6e680d72f084f4523c03ea29"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 433,
+      "sha256": "3dc67d0ac79c5e26f7b76f709e8a753cec83af2c95174078f13135baf79ecf6f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1234,
+      "sha256": "5e6df25aa48370af7e15e68bbed42bdd6ae789edf5cdd2157469ecaa30941b81"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1518,
+      "sha256": "9838c2991749eccf2eb9e49fd2e9446544f730c05a04902d3c7a163dcbe5361c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "6d53c6c4b40f03dfb6fdc85b88487743ff1eb1343426c6feed8440569f142eb1"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 2770,
+      "sha256": "22872b9e28965aab6afeec073faf0da814a3fea16e601a427bdd2012da9d21a0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 24272,
+      "sha256": "7dac28670a3067d13b270642a7f7d0beb02f582048704cb79f5f49b1db2c7176"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 762,
+      "sha256": "556f9efc68b556868c7fd4e6c7fc03f287eb1bbaaba66e6922659555ae3a442b"
+    },
+    {
+      "path": "docs/HOSTING.md",
+      "bytes": 1655,
+      "sha256": "f3bb1f482a27120b4cb3aadab156ae2481bd6e1cd01a00a465c2221d2440ba9b"
+    },
+    {
+      "path": "docs/IMPORT.md",
+      "bytes": 1756,
+      "sha256": "6d998cc52def7beaba91ce3e9300bee1b9f4a048052fefa5b49b55904255ebbd"
+    },
+    {
+      "path": "docs/PLAYER-GUIDE.md",
+      "bytes": 1901,
+      "sha256": "c2b9dd94d8524d26b6e51e92effa027e7d0cedeb114abce94bc4af13447d8b24"
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "bytes": 2459,
+      "sha256": "b8ceb071c40a6494e2984af567e01cd98e66bc8e59bb5d8be244a884522dd6ff"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 1817,
+      "sha256": "e76129ecc4cd29cca7cf8cb61cefaf88ab6f0616b55058deb788250042e6bd07"
+    },
+    {
+      "path": "docs/PUBLISHING.md",
+      "bytes": 3072,
+      "sha256": "7ccf8ab87b76b75ce805a6b5cd454c3fa03987429c443ee33c37bb9b4376b142"
+    },
+    {
+      "path": "docs/RELEASE.md",
+      "bytes": 1288,
+      "sha256": "792605553e80349c00521cbabad03f0d1c6d8ca318a7ee64bd3743d8655154a8"
+    },
+    {
+      "path": "docs/SAVES.md",
+      "bytes": 1282,
+      "sha256": "1f0b30d7b3113a7d4a6c665383ef3e84f5d67258afc03026cfb9b5076b2555c2"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 3009,
+      "sha256": "e7eff1faa480ba9dc08ef47410b0f3dfbb2bea2e171c17dc9a1fe1e12fafd132"
+    },
+    {
+      "path": "docs/images/capture-manifest.json",
+      "bytes": 2456,
+      "sha256": "051f290928b09ed04deed639496a2f4ba672ef01096e6d3431a7443d0ddfa4eb"
+    },
+    {
+      "path": "docs/images/companions.jpg",
+      "bytes": 109184,
+      "sha256": "12b672f48f63424036347e0ba5c59fabe401eb02aa7f7c11d645bb8ac3402060"
+    },
+    {
+      "path": "docs/images/desktop-battle.jpg",
+      "bytes": 238595,
+      "sha256": "80dd948c346d069c55867593aa6972c0d02703077d1b64a87442da117993aa4e"
+    },
+    {
+      "path": "docs/images/desktop.jpg",
+      "bytes": 444815,
+      "sha256": "644eff7fdb25811d1a7ade0bf592aa0c2033a82b513551d8576c5fb17c90bc96"
+    },
+    {
+      "path": "docs/images/field-guide.jpg",
+      "bytes": 143122,
+      "sha256": "e30edcccff0fe682ef2bb1053dba6c0bfd8dd282bc4a43a5e94fb49eb17ba1ab"
+    },
+    {
+      "path": "docs/images/phone-battle.jpg",
+      "bytes": 77443,
+      "sha256": "3e48e2abb130a7a3f6e6041ea35ede985914fa274f913d7bf3a8647bf687b2d6"
+    },
+    {
+      "path": "docs/images/phone.jpg",
+      "bytes": 104647,
+      "sha256": "0b5cc025e96fba20e2b75ff94675d64af0d87a266c4f4bd4a9a3089c653973d8"
+    },
+    {
+      "path": "docs/images/poster.png",
+      "bytes": 1735941,
+      "sha256": "eb4863f5b7dc2f2f463bbda78aa0c713d8eaafc877ba35545277eb31bcafedae"
+    },
+    {
+      "path": "docs/images/title.jpg",
+      "bytes": 316756,
+      "sha256": "14b76ebe7f08073b379687a0eb07fe6c8e90ddd4df7b162e72b59e7ccce177c8"
+    },
+    {
+      "path": "game/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/LICENSE",
+      "bytes": 1066,
+      "sha256": "6d53c6c4b40f03dfb6fdc85b88487743ff1eb1343426c6feed8440569f142eb1"
+    },
+    {
+      "path": "game/NOTICE.md",
+      "bytes": 2482,
+      "sha256": "f2b4b44fb14f8c846905abdfde051e569d8e82c8a5a3f0bd9184796c6b3abbe9"
+    },
+    {
+      "path": "game/README.md",
+      "bytes": 5764,
+      "sha256": "a35d0253ad5e99a48f46a098ec41d1a78636a68e0d4f579c5120f5d65427d07b"
+    },
+    {
+      "path": "game/art/battle-clearings.png",
+      "bytes": 3649625,
+      "sha256": "848958da4293b483757f7fb3b7cd80db72c21bc57d97fa41b8aea0fdc2bd21c3"
+    },
+    {
+      "path": "game/art/characters.png",
+      "bytes": 174430,
+      "sha256": "b2914638a9bf4c9d1d01db8b9491798dd1b0fb6084bbbfcd0c000a24cb768671"
+    },
+    {
+      "path": "game/art/map.png",
+      "bytes": 3368100,
+      "sha256": "7d497be285bea654e4e69a6dcce82057611c81d173beb9673a056f84e1a179d0"
+    },
+    {
+      "path": "game/art/monsters/001.png",
+      "bytes": 33258,
+      "sha256": "8fd0fa6a70db21b7fffe48fb21eb51167121ee3054533b077b62437a9c7a644f"
+    },
+    {
+      "path": "game/art/monsters/002.png",
+      "bytes": 31651,
+      "sha256": "1b89cf29ac300d9e139d187bf4184f3a1254867299c383baac65424ccde03833"
+    },
+    {
+      "path": "game/art/monsters/003.png",
+      "bytes": 37598,
+      "sha256": "5fff00f80fd8a8722644dfec8f1bc4a4435eb7865254d1fa034ffb9323cea7c3"
+    },
+    {
+      "path": "game/art/monsters/004.png",
+      "bytes": 29799,
+      "sha256": "5b8308ea0fa60abbb8ccb592f5a5d2e9a4278ea66878fb1277449b8144cf240b"
+    },
+    {
+      "path": "game/art/monsters/005.png",
+      "bytes": 34955,
+      "sha256": "a70083f4e7779e5151c7a7498f22b0268470a0a957b4b37244f3dce4adaca171"
+    },
+    {
+      "path": "game/art/monsters/006.png",
+      "bytes": 39116,
+      "sha256": "2429ca8b61f59fd93b8536473cd9cd77549855300d003ffe61e29d65e7781fb9"
+    },
+    {
+      "path": "game/art/monsters/007.png",
+      "bytes": 28587,
+      "sha256": "17c7a8e020d8c850380438166b3efe8fe1c508654a3dff01085a6c2b58190e20"
+    },
+    {
+      "path": "game/art/monsters/008.png",
+      "bytes": 35844,
+      "sha256": "52923e83aba1e080a65e0c5fbf3395caf3cb366405a122562a8d6ed1e8447022"
+    },
+    {
+      "path": "game/art/monsters/009.png",
+      "bytes": 30193,
+      "sha256": "b46f5a8ac1cc7ee4691b9e2fa79a8e7b21a7db3034da84387455bf6559b17b83"
+    },
+    {
+      "path": "game/art/monsters/010.png",
+      "bytes": 24268,
+      "sha256": "368f226c81b67eb91705d7036f66626548623b40ff08b0ff8cfe546d6b9fb7e3"
+    },
+    {
+      "path": "game/art/monsters/011.png",
+      "bytes": 40458,
+      "sha256": "4427e1310a81dfd58ab0d4dde6f0f231bcac7778d21590ede82c655302548d21"
+    },
+    {
+      "path": "game/art/monsters/012.png",
+      "bytes": 40922,
+      "sha256": "9ae9e05bc0f6b18f6a909792f8d350b98ea4d640d503b6fe173a7eba12e229ed"
+    },
+    {
+      "path": "game/art/monsters/013.png",
+      "bytes": 41443,
+      "sha256": "a8040b2732d5d175de60fa92fec80b21a7fdfaab008ebf2600896773a0d6dc89"
+    },
+    {
+      "path": "game/art/monsters/014.png",
+      "bytes": 36844,
+      "sha256": "08a375dddb867a3935ebc742dead56b1a5698d7c58d9ce8bc767468d4db72b8a"
+    },
+    {
+      "path": "game/art/monsters/015.png",
+      "bytes": 33765,
+      "sha256": "78d1d652422516c03e97dab26376a7fcab9ad4b3b2b0c01d75fe03df91493b78"
+    },
+    {
+      "path": "game/art/monsters/016.png",
+      "bytes": 38106,
+      "sha256": "b6f0d1df2bcbc32fd4fc92262255d5a3eae57d15fb524a33f21ec5ef7096b815"
+    },
+    {
+      "path": "game/art/monsters/017.png",
+      "bytes": 30329,
+      "sha256": "234172233748c616ac9d676c1cb9cdb322c96e36234c5e193bda70c858e5f5cb"
+    },
+    {
+      "path": "game/art/monsters/018.png",
+      "bytes": 36406,
+      "sha256": "7ab432dee6e6b6a21e96d486750f668f9ce86ba9de28924541a75059c8848ad6"
+    },
+    {
+      "path": "game/art/monsters/019.png",
+      "bytes": 28904,
+      "sha256": "5018a5c5c9f9e9302246ffa50b61a6b131ddbf4cef38597463c3b9e7b9f6be75"
+    },
+    {
+      "path": "game/art/monsters/020.png",
+      "bytes": 42136,
+      "sha256": "24563f7ebce4be9f89030793eb501f60687cd97aab17cb129e71b7e560513a40"
+    },
+    {
+      "path": "game/art/monsters/021.png",
+      "bytes": 41103,
+      "sha256": "ae29bb1003c9e197c7d2bdb687db42085815c32979c1d1e6bc9a9f9094e8d4ab"
+    },
+    {
+      "path": "game/art/monsters/022.png",
+      "bytes": 34444,
+      "sha256": "23a72edd30c4070d3e494d68b2e94d7371d765b7f630abcc50aa53dc50332c1c"
+    },
+    {
+      "path": "game/art/monsters/023.png",
+      "bytes": 29511,
+      "sha256": "15e458a20e5b8918f7f4f85d7817badcd4db15260e0429e18abc0a7bc88fc640"
+    },
+    {
+      "path": "game/art/monsters/024.png",
+      "bytes": 35113,
+      "sha256": "1f15b0ad10ecf84cc7f2d3dbdaedf77ca2fb3f72d22768577025370396e7b72f"
+    },
+    {
+      "path": "game/art/monsters/025.png",
+      "bytes": 26869,
+      "sha256": "9d44e1fdadd26397dee979f61a1358fd39c15d84cb976c6ccff1edabb1925fb4"
+    },
+    {
+      "path": "game/art/monsters/026.png",
+      "bytes": 31104,
+      "sha256": "ed75677b4d9f8e115977cfe5df4b79ab3e8c7ddd3131ebe031c678eb72cccc68"
+    },
+    {
+      "path": "game/art/monsters/027.png",
+      "bytes": 32552,
+      "sha256": "28df10fc8c158151c1d1fe387d995e941daa2feaea86845756bae5f680581fb4"
+    },
+    {
+      "path": "game/art/monsters/028.png",
+      "bytes": 39889,
+      "sha256": "af6269d35f03cdea11f67a5cdd16688d98595d330157cb8bf5e159c8173a7441"
+    },
+    {
+      "path": "game/art/monsters/029.png",
+      "bytes": 38748,
+      "sha256": "0e2593f2a76522437dddf6d80d0397ec473cdb111e570d8744c664f13fbd7610"
+    },
+    {
+      "path": "game/art/monsters/030.png",
+      "bytes": 37618,
+      "sha256": "d94a400c9d5d6853a51f1c62cc8d971bec19401bf5ae83b0cf02b9f8f08259b2"
+    },
+    {
+      "path": "game/art/monsters/031.png",
+      "bytes": 35769,
+      "sha256": "f970eda61e75ba8f83350b6ff95348051f8329cd89cd525faad5c2e2d7cdbd32"
+    },
+    {
+      "path": "game/art/monsters/032.png",
+      "bytes": 35447,
+      "sha256": "da71aa2f3357e3c0cb6662ae6cd7640ccb5fc12eb8ec21a880f768551e371edc"
+    },
+    {
+      "path": "game/art/monsters/033.png",
+      "bytes": 33656,
+      "sha256": "490b204571aacd6aa64dff7c0d809012f71a942a3554a21d8ead71b9c36eafa9"
+    },
+    {
+      "path": "game/art/monsters/034.png",
+      "bytes": 35434,
+      "sha256": "5c71f5c76587b551edbb866e850c41856801dd65259afd03033e353f8cee366f"
+    },
+    {
+      "path": "game/art/monsters/035.png",
+      "bytes": 37947,
+      "sha256": "a2c47f6904f3e9bfdadab3b9b518d3ff914def25e688f1ba7f71df8424f07f9e"
+    },
+    {
+      "path": "game/art/monsters/036.png",
+      "bytes": 42262,
+      "sha256": "b176296563aadaf011672f66a0790eb674db6c782a6e6dcb7a01755586cee2fc"
+    },
+    {
+      "path": "game/art/monsters/037.png",
+      "bytes": 29492,
+      "sha256": "33f8452bbfd6014d61b9b2d82e813078ce231d25b3a2efb2b91bb350f37ff033"
+    },
+    {
+      "path": "game/art/monsters/038.png",
+      "bytes": 31968,
+      "sha256": "5e522efa6bd2332dc00ad07723db03901a13842e3535c603012e19d32dfd6d37"
+    },
+    {
+      "path": "game/art/monsters/039.png",
+      "bytes": 33672,
+      "sha256": "280092a9206139cbb648b68bfe2d0726ba69396c7a7de580938e2f420cc5af99"
+    },
+    {
+      "path": "game/art/monsters/040.png",
+      "bytes": 42633,
+      "sha256": "25edb28f1ffe52fbac7c95f84685ec7d97fd2597d7b9b45a5db9ec00d4e1cf2c"
+    },
+    {
+      "path": "game/art/monsters/041.png",
+      "bytes": 35692,
+      "sha256": "81bbbe93db02707cbec2296819d9d3e8a748eec830477889a1de44d923c39864"
+    },
+    {
+      "path": "game/art/monsters/042.png",
+      "bytes": 37082,
+      "sha256": "c480b763465802cf51fa6d5f5cf97068105e704b1ab973b97e2e96554a101232"
+    },
+    {
+      "path": "game/art/monsters/043.png",
+      "bytes": 33941,
+      "sha256": "9e2abdc66b6604aba03ecb790c4ba1ed7b308cc1cdaf0639e6399388b88ca65b"
+    },
+    {
+      "path": "game/art/monsters/044.png",
+      "bytes": 35859,
+      "sha256": "3f7bc62edf2ff075208ca9865b0896daff9b1044ac22b0c80cf1ce4da4ac5471"
+    },
+    {
+      "path": "game/art/monsters/045.png",
+      "bytes": 40756,
+      "sha256": "3d17c07de6fc86ccc8766c2977b5686ae6f0f121626765f8b5d494a4b872f54a"
+    },
+    {
+      "path": "game/art/monsters/046.png",
+      "bytes": 38926,
+      "sha256": "09e5f722c9161c73cd4a831e34de8d5c7169d89db4bdc27c885dbe6fc23a3fe6"
+    },
+    {
+      "path": "game/art/monsters/047.png",
+      "bytes": 21645,
+      "sha256": "5514280d716a5ee4f782cfc949c10b296621a4335171bd02d71c71da8d3a0a77"
+    },
+    {
+      "path": "game/art/monsters/048.png",
+      "bytes": 31219,
+      "sha256": "db906fa5e28d5e480fd255266e2305c98a38ad4cb059a77881bad5ffa26fd704"
+    },
+    {
+      "path": "game/art/monsters/049.png",
+      "bytes": 43164,
+      "sha256": "35d52d94b756b88bd2e3fcc32458260694a32c4203f074108c8e2c5c4ef9980e"
+    },
+    {
+      "path": "game/art/monsters/050.png",
+      "bytes": 41785,
+      "sha256": "2d49982672eec0ccafb7c97ed9f59cd306d947a47f295d9cfae49aa19589e60a"
+    },
+    {
+      "path": "game/art/monsters/051.png",
+      "bytes": 36915,
+      "sha256": "3d6c05b77fb31cb71884a2b8e5cf553d45ade9d31080a4953fcdb4538499c85b"
+    },
+    {
+      "path": "game/art/monsters/052.png",
+      "bytes": 35348,
+      "sha256": "d6a5100b9be6a91684cefdcd80a6f0a99d20cbe5ec5290c0e71e874e6a9e9172"
+    },
+    {
+      "path": "game/art/monsters/053.png",
+      "bytes": 34139,
+      "sha256": "9bd8fda04b875a8f4881f6dfe2e0bd3ab14d220f9553a0145921f6aab57f2513"
+    },
+    {
+      "path": "game/art/monsters/054.png",
+      "bytes": 34326,
+      "sha256": "1174b0010a2dc686c9a9518b44c2e1663453403bab70ffc5bb59b9943f85e2a1"
+    },
+    {
+      "path": "game/art/monsters/055.png",
+      "bytes": 32676,
+      "sha256": "b44221de7a00949f1ade4658f7786cab4453e388d02f084d68c30f87c46e0ab9"
+    },
+    {
+      "path": "game/art/monsters/056.png",
+      "bytes": 41279,
+      "sha256": "2004f5f3ab78da22873e994a5d296fec4a8636967d9dcf01a5f4554a541e4b03"
+    },
+    {
+      "path": "game/art/monsters/057.png",
+      "bytes": 36845,
+      "sha256": "c30fdf326601e5f4e29e30277b7f239146ed5c12826f3a06cf254bd332ceda93"
+    },
+    {
+      "path": "game/art/monsters/058.png",
+      "bytes": 38885,
+      "sha256": "2f1bd34893910c2430de07ac0969a220b32bc2c5668a6f263c1ad9165d87ae16"
+    },
+    {
+      "path": "game/art/monsters/059.png",
+      "bytes": 41142,
+      "sha256": "ff3f3f099a6ac3d44ac82e7b5e3215a92eb20166e4c92c8faf34eecd92220444"
+    },
+    {
+      "path": "game/art/monsters/060.png",
+      "bytes": 41198,
+      "sha256": "f73e8ea3bdcef6094c1bf7820d7e7c846beef993048d29b954a44d261b5ed641"
+    },
+    {
+      "path": "game/art/monsters/061.png",
+      "bytes": 36084,
+      "sha256": "579dca912ca79e9eb75d97589a0aa12fc34c2ecca540381f9a9d4f69da6eb1f1"
+    },
+    {
+      "path": "game/art/monsters/062.png",
+      "bytes": 37328,
+      "sha256": "2312feda888dc8e7a844e65ac46209ff651b2fc6d8078e493559aca5c84dfc9c"
+    },
+    {
+      "path": "game/art/monsters/063.png",
+      "bytes": 38456,
+      "sha256": "cb2743598949742175e60c0386db68a8fc7971feb40f4874545103164b8b21c4"
+    },
+    {
+      "path": "game/art/monsters/064.png",
+      "bytes": 41975,
+      "sha256": "3be9032fbf1f505e67da7d58c4b582018e713370d926d5f155908bd61986bb9d"
+    },
+    {
+      "path": "game/art/monsters/065.png",
+      "bytes": 36919,
+      "sha256": "054d495b26faadeb0ab7f49a5eda0771329b0729dfd3edd47afbf1d27d1f487b"
+    },
+    {
+      "path": "game/art/monsters/066.png",
+      "bytes": 44980,
+      "sha256": "7542adb56b16329c85c5102cff3f3fc4c32efb079b7de641ed9c91d5b9831280"
+    },
+    {
+      "path": "game/art/monsters/067.png",
+      "bytes": 36096,
+      "sha256": "567166a139006fbe15d58a1039ec24baac3117f311818123e0b0fd14b025251d"
+    },
+    {
+      "path": "game/art/monsters/068.png",
+      "bytes": 32302,
+      "sha256": "5a8222b51a17b0259106fa3b531fe8736c6e36ae6601754035eadc9e96113249"
+    },
+    {
+      "path": "game/art/monsters/069.png",
+      "bytes": 33353,
+      "sha256": "a02d2120cfb2d00675b5d1bd26684df048d1809edb1e994ef116373684b45aad"
+    },
+    {
+      "path": "game/art/monsters/070.png",
+      "bytes": 36954,
+      "sha256": "3ad52d0d48e3309b2acb2b7a5c6d5f4185e31825a7774eee87f26e49f149b134"
+    },
+    {
+      "path": "game/art/monsters/071.png",
+      "bytes": 33797,
+      "sha256": "6bb8c78d4425aeb3753df4ec858d016e58f3e832b4d497a6916f92e00b0bb911"
+    },
+    {
+      "path": "game/art/monsters/072.png",
+      "bytes": 40550,
+      "sha256": "a4308187b6eed4bba1509b71591f3a74d2ddc66e3615b5ca4bac5f6ef85b5439"
+    },
+    {
+      "path": "game/art/monsters/073.png",
+      "bytes": 33801,
+      "sha256": "d5fcda6088cf70995df3edf3e4ac523050c720e1aa4d08247be8924539cdf9c2"
+    },
+    {
+      "path": "game/art/monsters/074.png",
+      "bytes": 42024,
+      "sha256": "56e77a85f8ab34b43fd82d09ace2782193beea8c16fd3f216f4ade24fd0ccad5"
+    },
+    {
+      "path": "game/art/monsters/075.png",
+      "bytes": 39507,
+      "sha256": "bca550bd9c16c9911890fedaf8d19aa60ed17fc442d252145b2346cf261af7b5"
+    },
+    {
+      "path": "game/art/monsters/076.png",
+      "bytes": 29140,
+      "sha256": "f0057179323b0c010536cc7be49b3d70c3bdff00cd49acf2622115f61bffd9d2"
+    },
+    {
+      "path": "game/art/monsters/077.png",
+      "bytes": 36569,
+      "sha256": "79c5bd99436ac441ab41f0bcca6c1498f936543e6aa229c32ff4a9797db47ea7"
+    },
+    {
+      "path": "game/art/monsters/078.png",
+      "bytes": 37141,
+      "sha256": "dc66703ca1a00c527a6e473b78a125c87478706361b9b58a5d680592f4f7fb6b"
+    },
+    {
+      "path": "game/art/monsters/079.png",
+      "bytes": 42036,
+      "sha256": "4362a4cf0fb4d63eb52ea7fa9b20e5cab08286acc54f6b73db0754c3213b16b7"
+    },
+    {
+      "path": "game/art/monsters/080.png",
+      "bytes": 42142,
+      "sha256": "df2c09a70401715d8f171fd115a284e110f4ee6788661ae08e9f323619a32380"
+    },
+    {
+      "path": "game/art/monsters/081.png",
+      "bytes": 36016,
+      "sha256": "226daeba5110e8c457367dd01ea8f426aebebaf86a3736b9755ba90354be4e8b"
+    },
+    {
+      "path": "game/art/monsters/082.png",
+      "bytes": 43909,
+      "sha256": "585433479f5d715612e3cc19e2c673afa273aae8ab797eebd7af24a5e82a071b"
+    },
+    {
+      "path": "game/art/monsters/083.png",
+      "bytes": 37768,
+      "sha256": "11a638c1760ce2f3f4775a31ad85b6203cd903e5cceb502f35a43fcd8fa0ca36"
+    },
+    {
+      "path": "game/art/monsters/084.png",
+      "bytes": 39771,
+      "sha256": "4bd578fad15ebe627e099966f95c084629de334393c7cdb6e60442ef1afc6e84"
+    },
+    {
+      "path": "game/art/monsters/085.png",
+      "bytes": 35847,
+      "sha256": "15e2f4ea2e944492552bf8c2d20fc0f7554ac7893b3b5003d2c1ddb13ea5ad82"
+    },
+    {
+      "path": "game/art/monsters/086.png",
+      "bytes": 33743,
+      "sha256": "a828f2ef7fd9ad9ed6affb8d0d9997a320330481bee788058c14f0eb9b1c5ce6"
+    },
+    {
+      "path": "game/art/monsters/087.png",
+      "bytes": 34668,
+      "sha256": "1b86cf2e0ee6b00c08030b6ed1ef8af7ed4658694e05c0b23ca2b98752a4a747"
+    },
+    {
+      "path": "game/art/monsters/088.png",
+      "bytes": 37668,
+      "sha256": "ea7c03f5286e2bd5553ae0637ee35c000aca93b3e9c99e4def542ee070fc722c"
+    },
+    {
+      "path": "game/art/monsters/089.png",
+      "bytes": 38290,
+      "sha256": "36655d59f4a96d63cec0f2d2fca86e9678d061de477bf660d74503317b246e3d"
+    },
+    {
+      "path": "game/art/monsters/090.png",
+      "bytes": 45404,
+      "sha256": "7e6965c33b6248b8bb24afab409a6e9d585b5c53ee741e3c773fee91853b8c4d"
+    },
+    {
+      "path": "game/art/monsters/091.png",
+      "bytes": 38556,
+      "sha256": "cfd2046624fdefc60cb12ee5f4deb9363f57021a367c41aa29a2b2cb1c6b79ef"
+    },
+    {
+      "path": "game/art/monsters/092.png",
+      "bytes": 35805,
+      "sha256": "0629a0f6f354b50d59bf31f9728bbb2d38c83c33c1045935dbefa949c607cecf"
+    },
+    {
+      "path": "game/art/monsters/093.png",
+      "bytes": 41860,
+      "sha256": "4bd447440d302e207661cca940db7164c1f51ea680cbc14c3a2c6be7c16039e9"
+    },
+    {
+      "path": "game/art/monsters/094.png",
+      "bytes": 38730,
+      "sha256": "f389467e6550c242cb13159c73325a02ce48137093ddacf851cd5f3b116c7ce2"
+    },
+    {
+      "path": "game/art/monsters/095.png",
+      "bytes": 27019,
+      "sha256": "b619d8a8436c85e1ee0782c566935f9ca65e0acad3db9e818550a814a855bfed"
+    },
+    {
+      "path": "game/art/monsters/096.png",
+      "bytes": 35887,
+      "sha256": "d2125cc59ae04ae18a5ad5d28c8aca3216f8f6eff196adc0b714bbcfdf5be619"
+    },
+    {
+      "path": "game/art/monsters/097.png",
+      "bytes": 30773,
+      "sha256": "c736007f4b471674a5b0e2905b7f81e8e362861db08f58757af72fde0200af40"
+    },
+    {
+      "path": "game/art/monsters/098.png",
+      "bytes": 37836,
+      "sha256": "49c1725cdac81e73d399b967d6346b134b83b158a1535fb6f9ab65e3cb661d81"
+    },
+    {
+      "path": "game/art/monsters/099.png",
+      "bytes": 44243,
+      "sha256": "5e502946a71c3beb34e36bd816e3e8b1fde36f00660d0b3e56c0d6973104e074"
+    },
+    {
+      "path": "game/art/monsters/100.png",
+      "bytes": 31354,
+      "sha256": "b8fe83385c9c4de09995286a478b9e6f93245e09653f66d6a4582dc4e2567048"
+    },
+    {
+      "path": "game/art/monsters/101.png",
+      "bytes": 30598,
+      "sha256": "1a198ac6ef47d4c6fcf60132cf16bb9a3664fb1ab92d2d0f1cde9db9d2a9e206"
+    },
+    {
+      "path": "game/art/monsters/102.png",
+      "bytes": 41259,
+      "sha256": "1520396fdb5cc713a129113c4e16fd4ef8f1ef481b8993ca71e9cc0dff5c67f2"
+    },
+    {
+      "path": "game/art/monsters/103.png",
+      "bytes": 42739,
+      "sha256": "b8fc494b537721d0e01c49b348601d41ef5b86636c0a4922363eba2dbbc8a15b"
+    },
+    {
+      "path": "game/art/monsters/104.png",
+      "bytes": 39036,
+      "sha256": "279c2b24d54722e2481d0643bae13956fdc8c541252db17191fecfab54b802be"
+    },
+    {
+      "path": "game/art/monsters/105.png",
+      "bytes": 39780,
+      "sha256": "12ed6e1efee8d3a5d8503ae996de1ae761d22be6a590f6c3029e817c34d8f884"
+    },
+    {
+      "path": "game/art/monsters/106.png",
+      "bytes": 35966,
+      "sha256": "b9626655eefe19d8caab5fe2704fb462f55ef4e52520ce0e54d691389eee19d3"
+    },
+    {
+      "path": "game/art/monsters/107.png",
+      "bytes": 29958,
+      "sha256": "d495f3a7dca857411bf7eff01c010d7f454af1632d9830f83ee1d6da976849a3"
+    },
+    {
+      "path": "game/art/monsters/108.png",
+      "bytes": 35671,
+      "sha256": "e646afc040e260007068a85b2f995ca80628acb9ba325d9f2f5eeb123e61f5df"
+    },
+    {
+      "path": "game/art/monsters/109.png",
+      "bytes": 39698,
+      "sha256": "34ff356624592aaea3b1c150044356a21876210d41d8908563c3cc603c2d944a"
+    },
+    {
+      "path": "game/art/monsters/110.png",
+      "bytes": 28971,
+      "sha256": "af55a6dac92efaa355cb3aa0178043751ca1f8aca75b431153a78a5caf287387"
+    },
+    {
+      "path": "game/art/monsters/111.png",
+      "bytes": 45492,
+      "sha256": "31bc8d318eefad0d34a256a996ca88195b8eeb885decb33ce9313852fca02e15"
+    },
+    {
+      "path": "game/art/monsters/112.png",
+      "bytes": 37864,
+      "sha256": "19cc31b348278d13c6f213c9c8388ec48b91600d7ec91a1999c1cb775990099c"
+    },
+    {
+      "path": "game/art/monsters/113.png",
+      "bytes": 36564,
+      "sha256": "37eb4e9f642fc433950a402840a1149ed6852d9f16faa894e8ba88291d1c8a72"
+    },
+    {
+      "path": "game/art/monsters/114.png",
+      "bytes": 40781,
+      "sha256": "c8e0d29d6b37a2515c56015833561d00f1b9a50f74adeaaebc5cafeb13fd29b0"
+    },
+    {
+      "path": "game/art/monsters/115.png",
+      "bytes": 30784,
+      "sha256": "438443c7fa7b8ff0941abd0529205904cc14488a1b875af30b9a3c50d0775fa9"
+    },
+    {
+      "path": "game/art/monsters/116.png",
+      "bytes": 26757,
+      "sha256": "b41b35cb53e256dea8082495a21d296dda5de3ba648c8f5bf936871e5f21ee3e"
+    },
+    {
+      "path": "game/art/monsters/117.png",
+      "bytes": 43541,
+      "sha256": "cb7070277a25f4bcc08c90b280acf1c217f27032701854225c38ae58a357519b"
+    },
+    {
+      "path": "game/art/monsters/118.png",
+      "bytes": 35446,
+      "sha256": "653cffb4e979e9b7ffb176bdb524220f76aba52577ac23261369ecd066d9a449"
+    },
+    {
+      "path": "game/art/monsters/119.png",
+      "bytes": 41884,
+      "sha256": "09429e5b83eb66094e58c9f4a5458eb79065a6f54f97b5c6b55d69dad54e25e4"
+    },
+    {
+      "path": "game/art/monsters/120.png",
+      "bytes": 39275,
+      "sha256": "2ba3367722146bb0de22d7db216bc2b114e5b9ed092b34bea27f052b4da76314"
+    },
+    {
+      "path": "game/art/monsters/121.png",
+      "bytes": 39607,
+      "sha256": "b922dd15a881cce662a95e56d65d023b5d5ee9cf6c54e8db1417e056556d1dd6"
+    },
+    {
+      "path": "game/art/monsters/122.png",
+      "bytes": 37391,
+      "sha256": "a0db6de3502a5017d5f7a0e450997cb5a5debc2fefbc621c5c4d302e43a011c1"
+    },
+    {
+      "path": "game/art/monsters/123.png",
+      "bytes": 36978,
+      "sha256": "76117bf09f3f60bd30b41616df5d3dde427fd00c06110da66fd36126e48c92ce"
+    },
+    {
+      "path": "game/art/monsters/124.png",
+      "bytes": 32221,
+      "sha256": "f418046514256d4b0791dcf4e2f6c1957e28ac6f04478d6b5949e80fc2ce2240"
+    },
+    {
+      "path": "game/art/monsters/125.png",
+      "bytes": 41703,
+      "sha256": "c72039a38dea5dd186e637592ded21e4c0892b4548eb1d64fcb22b4c808283f7"
+    },
+    {
+      "path": "game/art/monsters/126.png",
+      "bytes": 38365,
+      "sha256": "6e9f376b23833baab303ba57c1b309c64622e52f8ed93b2ee8b91a875f5c0949"
+    },
+    {
+      "path": "game/art/monsters/127.png",
+      "bytes": 36143,
+      "sha256": "899c137a71325969c5e09015f8824a6f6ed997d56c2628142480992ebfcf5374"
+    },
+    {
+      "path": "game/art/monsters/128.png",
+      "bytes": 38892,
+      "sha256": "ff37d97c1e1dd429e5dd4db88650aa081592d3d20c867b37f8656c19abe68d42"
+    },
+    {
+      "path": "game/art/monsters/129.png",
+      "bytes": 30454,
+      "sha256": "5595e5c99903bb463eda4a2c609d238f3faa82c2892f82c184b42fb0e5b6a7b2"
+    },
+    {
+      "path": "game/art/monsters/130.png",
+      "bytes": 37982,
+      "sha256": "12879314d83967daa1f597052948711ab6dcb0db0d57c662cc9378bec458ea5d"
+    },
+    {
+      "path": "game/art/monsters/131.png",
+      "bytes": 39543,
+      "sha256": "9aaec85e73b5fb948054c6d0249812c415c966b19ea336adc8dacbc63861fe52"
+    },
+    {
+      "path": "game/art/monsters/132.png",
+      "bytes": 37451,
+      "sha256": "e3a9b56dfbe39f8c58786a83ec2a6646858acdb2cb18cb8015cc1359647f1727"
+    },
+    {
+      "path": "game/art/monsters/133.png",
+      "bytes": 39307,
+      "sha256": "7a4ff5d68ca678235e0b1db6bf5f3d16875565d29e9a8d84c759c5e7c6f04382"
+    },
+    {
+      "path": "game/art/monsters/134.png",
+      "bytes": 26305,
+      "sha256": "f8a8509e3f83f10453187f2df2596b94f27a8e57eb418b0b3a3a5fd5a2bff2f6"
+    },
+    {
+      "path": "game/art/monsters/135.png",
+      "bytes": 32305,
+      "sha256": "4b426185a70732b7f98671cc6690a2d8c27b5b3e40a0b322bce774b3d01e710f"
+    },
+    {
+      "path": "game/art/monsters/136.png",
+      "bytes": 41382,
+      "sha256": "7fe28fa4476af317bdb3220656d479b8e0755e80ba951e507db2f5b4c53b731d"
+    },
+    {
+      "path": "game/art/monsters/137.png",
+      "bytes": 32700,
+      "sha256": "99800e2487647a4b5f4ef068cfe91959527490dadc7b16f98bdcdba3997b7435"
+    },
+    {
+      "path": "game/art/monsters/138.png",
+      "bytes": 40292,
+      "sha256": "c633f79ffc3aa52f81f7ceb78b3d96fbc8363ac9339017b226c27b8a2ebf6b43"
+    },
+    {
+      "path": "game/art/monsters/139.png",
+      "bytes": 30954,
+      "sha256": "993b62b4d627b734732c131b667574e3bd17d58228cfa329c084cc362330d8a7"
+    },
+    {
+      "path": "game/art/monsters/140.png",
+      "bytes": 36274,
+      "sha256": "d6a30902f92be442049d46222612109e48314a4e5a1b0b1515e568dcbdbdc516"
+    },
+    {
+      "path": "game/art/monsters/141.png",
+      "bytes": 36350,
+      "sha256": "e6e92f2277c8d7ed96a036ba252a5df22b168acb204970d450183ec77d68dbcf"
+    },
+    {
+      "path": "game/art/monsters/142.png",
+      "bytes": 38929,
+      "sha256": "83ad54bbe98bdb7ad714b96de065d33850525561a2dcb50836d525be522e5310"
+    },
+    {
+      "path": "game/art/monsters/143.png",
+      "bytes": 44031,
+      "sha256": "9c9167971077f8ee79152254205edcb4d67cab63800988beafcd4ceed37af491"
+    },
+    {
+      "path": "game/art/monsters/144.png",
+      "bytes": 42030,
+      "sha256": "d46d39f490372494de1b5a89771e28511790a62b08fba4a1cd2abd0e12c598cb"
+    },
+    {
+      "path": "game/art/monsters/145.png",
+      "bytes": 35955,
+      "sha256": "3b55a413c69d18698998942cb8bab1216de4f1652fd4ed2350a47cc0c83880af"
+    },
+    {
+      "path": "game/art/monsters/146.png",
+      "bytes": 33997,
+      "sha256": "abc2a5a0e4fcefc4ce030aff1dde56c6d949313839794b851596292053e2cf03"
+    },
+    {
+      "path": "game/art/monsters/147.png",
+      "bytes": 42839,
+      "sha256": "3bc39e52832f12398dc005e30f73e6127ef72982bce3a0a0f276dc6476242333"
+    },
+    {
+      "path": "game/art/monsters/148.png",
+      "bytes": 31146,
+      "sha256": "86ed0fb770d38a41a08d1c97a5cf29fdd7c4652c9412576a72baf157579d336a"
+    },
+    {
+      "path": "game/art/monsters/149.png",
+      "bytes": 39632,
+      "sha256": "8f2d18c05319629d6eb95d208bc8b73925a8416d48c1619315c96bc878614d73"
+    },
+    {
+      "path": "game/art/monsters/150.png",
+      "bytes": 35889,
+      "sha256": "d4556b61668a251574bdf57c9403e2ddfd6faf04697b7a5cacb1d37515e218a9"
+    },
+    {
+      "path": "game/art/monsters/151.png",
+      "bytes": 40441,
+      "sha256": "6806a2d1b9fd86d19303106a8cd32787f48eedce0cee5ca3ff71e568964edfb6"
+    },
+    {
+      "path": "game/art/opening.png",
+      "bytes": 3182494,
+      "sha256": "009296e1d314436940d58d5291a95718b7a6f45f51082839ba2930145ad042bb"
+    },
+    {
+      "path": "game/art/ranger-walk.png",
+      "bytes": 1202984,
+      "sha256": "bdb97110d1c5d201ade54e2c3664f45e8b1f91bfd537ac8095fd03baf4c0af1f"
+    },
+    {
+      "path": "game/art/region-1.png",
+      "bytes": 3342202,
+      "sha256": "60d0c9dcbc4282e2836595266d733a95dee753d81148e49cde3f5054be6d91fb"
+    },
+    {
+      "path": "game/art/region-2.png",
+      "bytes": 3742968,
+      "sha256": "b7809338a7b263615b6833562105c79f2b075cf1cbfb9f82c550d01ac37ac1de"
+    },
+    {
+      "path": "game/art/region-3.png",
+      "bytes": 3886787,
+      "sha256": "9465e0763266aa5186ba3faee98ef5048cf60cac43907a4f019afb3e9223dff4"
+    },
+    {
+      "path": "game/art/region-4.png",
+      "bytes": 3874379,
+      "sha256": "b4d5d600a1fe0461d845b40231ad4f3439d4e9e7bb3a7eb0490a7a3df787b466"
+    },
+    {
+      "path": "game/art/region-5.png",
+      "bytes": 4060227,
+      "sha256": "2067e9877367b4ba771583b9416244276d2c57dae078c49e630428b097559aab"
+    },
+    {
+      "path": "game/art/region-6.png",
+      "bytes": 3775842,
+      "sha256": "7240af71b44cb8e0b3bf8ea5c6a211ee2a98e8158e7e46d11670327fcf02418e"
+    },
+    {
+      "path": "game/art/region-7.png",
+      "bytes": 3834798,
+      "sha256": "b9ca41cfc90cd81edeb37841f4b99989cc0d5e06ec9356ff8291229ba3f07e64"
+    },
+    {
+      "path": "game/art/region-8.png",
+      "bytes": 3730912,
+      "sha256": "665a34578473afa39d9751b9780750c6a3f95b8767ec6cee985d1d836ebcb9e0"
+    },
+    {
+      "path": "game/assets/BufferResource-Dp8NT_Xa.js",
+      "bytes": 11026,
+      "sha256": "876a477b25ed41a6214551092398270246f0d92d519c8d08ea68290ca84ae74d"
+    },
+    {
+      "path": "game/assets/CanvasPool-BeDQAFyX.js",
+      "bytes": 109762,
+      "sha256": "e41d0f4af11d7a90d046f5993c68d9ef919dd1266142b2184b8a2c077121c8a7"
+    },
+    {
+      "path": "game/assets/CanvasRenderer-BarjkSue.js",
+      "bytes": 78,
+      "sha256": "bae79ef956d58b1d330083e7aa960b4d8ebd5f05edefbdfdbab1aad38e51d5c8"
+    },
+    {
+      "path": "game/assets/FederatedEventTarget-CFOv86cZ.js",
+      "bytes": 42581,
+      "sha256": "fb23c904063d664819f4f29498ddc0b057c38588a1d53e8a998416e57ffd320a"
+    },
+    {
+      "path": "game/assets/FilterSystem-BE-BOTCS.js",
+      "bytes": 40418,
+      "sha256": "cecbc77edee77f444b6638d26ac9168a9cc309f8ef959050a2e1530c0cd16893"
+    },
+    {
+      "path": "game/assets/RenderTargetSystem-Ds9swyFS.js",
+      "bytes": 85445,
+      "sha256": "85f1e66f6acf93acffc05c21dcae272c97e94e9e7650bc9f628f99c98177eaed"
+    },
+    {
+      "path": "game/assets/WebGLRenderer-DKzm90vP.js",
+      "bytes": 77,
+      "sha256": "10895cc87e5b361abb938a750b9f2bdc9a1947d98eb42282543d1e3c4987d5fd"
+    },
+    {
+      "path": "game/assets/WebGPURenderer-eSkIL9vf.js",
+      "bytes": 78,
+      "sha256": "f0264e2f9a6a47f4ebd191549cf1d37275638d71ae161780ae0c7db6948cc77d"
+    },
+    {
+      "path": "game/assets/browserAll-JWxCFABa.js",
+      "bytes": 251,
+      "sha256": "c7343f66dadf9aa971e360897d68b650642fd8c260f937f6b837ba9c630cb00c"
+    },
+    {
+      "path": "game/assets/canvasUtils-BSS7SZMj.js",
+      "bytes": 6055,
+      "sha256": "3366a2cb5acab3d217818472d0faee88fda9de2e0a6d0eef559de9b86ec46b3f"
+    },
+    {
+      "path": "game/assets/getTextureBatchBindGroup-Bs5chNiC.js",
+      "bytes": 344,
+      "sha256": "cd71affa4646cc21badcaada5ec6ed27c1ba94f40ba90c81a9e8e64e0b25580a"
+    },
+    {
+      "path": "game/assets/init-B11kdfxn.js",
+      "bytes": 127,
+      "sha256": "bb31c05c00867e89e0767d638abbd71b04d0941007f923adc51063f5e36f949f"
+    },
+    {
+      "path": "game/assets/portable-C5YtrPMk.css",
+      "bytes": 266918,
+      "sha256": "4fd14a936ad279ca040ffe99171fa74feb5c388aa4714185161f47145dab8de1"
+    },
+    {
+      "path": "game/assets/portable-XQQ-YB3t.js",
+      "bytes": 1109018,
+      "sha256": "acc74732c6da62bd84f219f902a054a8547bae7c4d6d4ae1d60b4ed3f380ac1b"
+    },
+    {
+      "path": "game/assets/sprite-renderer-D969GpFE.js",
+      "bytes": 218611,
+      "sha256": "ad94d8f8780bc751d0b3f79315610153031adb0338cddc0dd7d80e097e2090c2"
+    },
+    {
+      "path": "game/assets/webworkerAll-WZ7lnQFg.js",
+      "bytes": 62,
+      "sha256": "4193bef7e9705273dbf9b9977aaef4563636b07850770c07470329420cec5877"
+    },
+    {
+      "path": "game/audio/cries/001.wav",
+      "bytes": 32186,
+      "sha256": "39c14ff1db53187b166b595780e63823aca6d0682b4398ff58e63bc7b4fb3c4c"
+    },
+    {
+      "path": "game/audio/cries/002.wav",
+      "bytes": 39064,
+      "sha256": "7a73819a5bc30efd66f1d56a4bc7d420c9db21ef118ec19101ec277be0310e4a"
+    },
+    {
+      "path": "game/audio/cries/003.wav",
+      "bytes": 46714,
+      "sha256": "efe7aba87f8a85f12157d3d043b4c9920eff374b065b4a822b2f5f46d2d28702"
+    },
+    {
+      "path": "game/audio/cries/004.wav",
+      "bytes": 29698,
+      "sha256": "1d7dfe78022c0196459fb59fc141b2f2f846dbf6599b804667e059bca2541419"
+    },
+    {
+      "path": "game/audio/cries/005.wav",
+      "bytes": 39556,
+      "sha256": "a4e460d2d94064ba16a60b5f186355cb38abe0ba27e0ee19196e78625d861829"
+    },
+    {
+      "path": "game/audio/cries/006.wav",
+      "bytes": 50356,
+      "sha256": "31415c575411420317ba01e9dcb91b38f5c541f7af6183aaf5e63320e8188806"
+    },
+    {
+      "path": "game/audio/cries/007.wav",
+      "bytes": 27360,
+      "sha256": "78b779e350fbc0be34f7f5490cc7b474cdb8a806cd2c7e9deb16f7c53be9ab81"
+    },
+    {
+      "path": "game/audio/cries/008.wav",
+      "bytes": 38782,
+      "sha256": "3f01eb2a6d6be777267cf1238c1034c8a25dc7df9930c6e0105e64c1e1500c74"
+    },
+    {
+      "path": "game/audio/cries/009.wav",
+      "bytes": 53048,
+      "sha256": "7bcc856d6c3078f258e053ae2d0d547618b7a47bb83883b9bb79e0eae8f0b7eb"
+    },
+    {
+      "path": "game/audio/cries/010.wav",
+      "bytes": 30980,
+      "sha256": "cff743fa815dcfe6ab78b85a596e50668729ae09b5cc886be2b4927880e965d5"
+    },
+    {
+      "path": "game/audio/cries/011.wav",
+      "bytes": 36764,
+      "sha256": "a9ba2ac353610845baac9915e3a7654a11327e7040d057f418cc6a44f4ee26e8"
+    },
+    {
+      "path": "game/audio/cries/012.wav",
+      "bytes": 48678,
+      "sha256": "8746d3f729374343c18401833b5ae8d0197b44672da56932dc185694a447ff40"
+    },
+    {
+      "path": "game/audio/cries/013.wav",
+      "bytes": 30170,
+      "sha256": "da6cb016da0d11022dd933167cb3f7ed92791b0eab0bf0a981c0ea3efbe2db90"
+    },
+    {
+      "path": "game/audio/cries/014.wav",
+      "bytes": 37838,
+      "sha256": "e837657285579fcbe225b544bb8bad00adefbe199ca6059b2890a8fa38341e55"
+    },
+    {
+      "path": "game/audio/cries/015.wav",
+      "bytes": 51280,
+      "sha256": "14084ccaf4b3899d5c5317da965ae8eb532596ee8fcf20d26ba3bd658b82a30a"
+    },
+    {
+      "path": "game/audio/cries/016.wav",
+      "bytes": 31766,
+      "sha256": "3b5e19ba8c4a63828abf234834c882672effb301a2eb7b2dba79eea63f9af853"
+    },
+    {
+      "path": "game/audio/cries/017.wav",
+      "bytes": 39542,
+      "sha256": "dcd67346a96163b7c0a9f702f5d2ab68857b565a87769a508702aa75ec028dd6"
+    },
+    {
+      "path": "game/audio/cries/018.wav",
+      "bytes": 33604,
+      "sha256": "8b764595ed31322962a67d3cf6b1a96b82e8b68044489aa513ab6343a1194829"
+    },
+    {
+      "path": "game/audio/cries/019.wav",
+      "bytes": 44886,
+      "sha256": "c8b9b1504084aae3f10ff2100098281d5c8dae542f7c536f354e49233714c0f7"
+    },
+    {
+      "path": "game/audio/cries/020.wav",
+      "bytes": 33926,
+      "sha256": "35b519e59cc13f6a5c6585563710c413b17db1dbf58b6a20b6d82f63ef384ea0"
+    },
+    {
+      "path": "game/audio/cries/021.wav",
+      "bytes": 41800,
+      "sha256": "76e803e4807bed68441f954348e254c5a931a449722335d56341d12f5a2b9070"
+    },
+    {
+      "path": "game/audio/cries/022.wav",
+      "bytes": 30254,
+      "sha256": "6654c53292eeed9cebde7780d12cd76d7966004ce005fb8a0abd940bad4823f7"
+    },
+    {
+      "path": "game/audio/cries/023.wav",
+      "bytes": 44384,
+      "sha256": "5332dfeaeb0ae02712e006444c38025266972bada61d5483ab1b0fd0cf982ad9"
+    },
+    {
+      "path": "game/audio/cries/024.wav",
+      "bytes": 28978,
+      "sha256": "bdc38c451e41a25e67282edae4461777e26f11a591864b81ff988849ffdf0d81"
+    },
+    {
+      "path": "game/audio/cries/025.wav",
+      "bytes": 42026,
+      "sha256": "903ff73706cb6676bd1f40ba05bb02e8ffb074b1f3d1877f62c4ba84ab97c16f"
+    },
+    {
+      "path": "game/audio/cries/026.wav",
+      "bytes": 26268,
+      "sha256": "a379a0a5a9b0f187c80a93d9b72ae0989b926562c6fe2f0ca5d723d097b7d89d"
+    },
+    {
+      "path": "game/audio/cries/027.wav",
+      "bytes": 37496,
+      "sha256": "1ef3f340b6b45dbda3bbb506e9e5f66388bb29b6b6d466af19ac5004046d242a"
+    },
+    {
+      "path": "game/audio/cries/028.wav",
+      "bytes": 31980,
+      "sha256": "855752ebd510932205c78b889fa4268cc63556fe50000b7bbfbc57736d8ee890"
+    },
+    {
+      "path": "game/audio/cries/029.wav",
+      "bytes": 43064,
+      "sha256": "335bbb805272ac08cbe65a61c6cab87d13b614f088aae8ed61d9c722bae4c067"
+    },
+    {
+      "path": "game/audio/cries/030.wav",
+      "bytes": 46578,
+      "sha256": "0a0b9929521aa437116f2d55e3bad3b0922af6763608f4b05c750dccc027c5ed"
+    },
+    {
+      "path": "game/audio/cries/031.wav",
+      "bytes": 30314,
+      "sha256": "a463dadf94db41e9716364bf0b2d4bf9a28a9a35a54ee8ce1c17d4f1637e4c86"
+    },
+    {
+      "path": "game/audio/cries/032.wav",
+      "bytes": 38478,
+      "sha256": "3081ba5d794c1542ea5ebb2ef8374220d9c46ae536d0a83b6d4deaf0fe640bc8"
+    },
+    {
+      "path": "game/audio/cries/033.wav",
+      "bytes": 27498,
+      "sha256": "fdd7d51751f851bc390ca011a884fc9602a1ae0704c8529253a9dd60db9b2bbc"
+    },
+    {
+      "path": "game/audio/cries/034.wav",
+      "bytes": 41420,
+      "sha256": "dd455f80c5455945e777022fb8ffd60788ead5223f8bb1c3962b1414597c1d5b"
+    },
+    {
+      "path": "game/audio/cries/035.wav",
+      "bytes": 25914,
+      "sha256": "3c0799bceded05045b85d3aaac6269b7495e126bffbfccbce02045b853d5f67b"
+    },
+    {
+      "path": "game/audio/cries/036.wav",
+      "bytes": 37194,
+      "sha256": "69688ab537965f7854b463e708886a4b8a627990907c39da7e460e55ff1afade"
+    },
+    {
+      "path": "game/audio/cries/037.wav",
+      "bytes": 27474,
+      "sha256": "730bdbbdb987f74e83057e02d4920b061088f03d1ecc9ca994b451a53acbc4bf"
+    },
+    {
+      "path": "game/audio/cries/038.wav",
+      "bytes": 41132,
+      "sha256": "21d576678df96c6ad6d5aae823ff8bcb9233efed08b664a3d304a4b86d46e7f8"
+    },
+    {
+      "path": "game/audio/cries/039.wav",
+      "bytes": 32570,
+      "sha256": "c08789cfe44ef03642c063784240d5347862e86832767753699cba11622cd1dc"
+    },
+    {
+      "path": "game/audio/cries/040.wav",
+      "bytes": 44960,
+      "sha256": "506113b06f2db6ac20df849c5a049825c799f937a3f2cd72b1d33f550b93f071"
+    },
+    {
+      "path": "game/audio/cries/041.wav",
+      "bytes": 32518,
+      "sha256": "17e328b5c026924d0729880209b31ef33752423eef3c1cdb0220cf0bd24bae20"
+    },
+    {
+      "path": "game/audio/cries/042.wav",
+      "bytes": 38100,
+      "sha256": "11f5d342b4f687c3fc650a88d4e6d3abe38d47bbb84c25c114785b238865498a"
+    },
+    {
+      "path": "game/audio/cries/043.wav",
+      "bytes": 27328,
+      "sha256": "2ec8c10d6e344150b6c06f0e24c7d59414650e3f53685ef65bc195c1af4f39e2"
+    },
+    {
+      "path": "game/audio/cries/044.wav",
+      "bytes": 41776,
+      "sha256": "23e27a37ef957ca59252aa3d5f1f1ae7e692c511edc95c1642d317f374b0d9f0"
+    },
+    {
+      "path": "game/audio/cries/045.wav",
+      "bytes": 35132,
+      "sha256": "65aa6dc637fd2c5aa5a7ea6ff29dcac37fa51b2fa1b467140265e130b0a94fc4"
+    },
+    {
+      "path": "game/audio/cries/046.wav",
+      "bytes": 27576,
+      "sha256": "bf39d7afc945a0bf1644030709a85f152c8700ec7aad38fe60d9f3cd3680188b"
+    },
+    {
+      "path": "game/audio/cries/047.wav",
+      "bytes": 37720,
+      "sha256": "0338c5b9c0e21f2fef9d7c6b61f5c51cfdf2140748303521fab8e07d9ec9c014"
+    },
+    {
+      "path": "game/audio/cries/048.wav",
+      "bytes": 47112,
+      "sha256": "79411551ac370a860258cfd724cefc2b088255aaf78ff9c28697476eafc8a51b"
+    },
+    {
+      "path": "game/audio/cries/049.wav",
+      "bytes": 31332,
+      "sha256": "c167f3e207a16ee61b87baf0b44f3a95f9ca9dff27e3e9bb2459bb9f8b12b0f4"
+    },
+    {
+      "path": "game/audio/cries/050.wav",
+      "bytes": 44744,
+      "sha256": "8d54b5422986f4c82d826e5b7bf12c0b340e07555d6fc93013c53b657bc0e718"
+    },
+    {
+      "path": "game/audio/cries/051.wav",
+      "bytes": 32792,
+      "sha256": "0ea05c7e988bef9587ae009c22bdcd7a83f39970851c77f485277ff9595a3bc7"
+    },
+    {
+      "path": "game/audio/cries/052.wav",
+      "bytes": 45842,
+      "sha256": "d692eeca75c645e1c68be9704c39599ac698828f94e74e876836fd6757bed417"
+    },
+    {
+      "path": "game/audio/cries/053.wav",
+      "bytes": 34158,
+      "sha256": "05617072af6df7dea3dcc87b4bd767732d04cadf25d7a1afe770ab8870af7c79"
+    },
+    {
+      "path": "game/audio/cries/054.wav",
+      "bytes": 40550,
+      "sha256": "19862d9a14e72c4caed482e80395d33bd24b73b28c48ab69ab265bff1242feb8"
+    },
+    {
+      "path": "game/audio/cries/055.wav",
+      "bytes": 29168,
+      "sha256": "69e4f8797e7d6165fb3fa01e75a1f5bc144cb31411afae5187902c526ff7950e"
+    },
+    {
+      "path": "game/audio/cries/056.wav",
+      "bytes": 38818,
+      "sha256": "a2e3d4b6dfd2a6558e33d176078109dda4ef8dc3017c2553ba09a8c54e27b3c4"
+    },
+    {
+      "path": "game/audio/cries/057.wav",
+      "bytes": 29498,
+      "sha256": "f4265faf3bae8bfd725524ae042e75c0dec705257dbf8190c2b82f295dc84008"
+    },
+    {
+      "path": "game/audio/cries/058.wav",
+      "bytes": 39924,
+      "sha256": "10ef2ec5161cf3c9676f01d969639da892b4984fe64403df9220a4d343ac3426"
+    },
+    {
+      "path": "game/audio/cries/059.wav",
+      "bytes": 30222,
+      "sha256": "e0c69ce9da53e28e7696cfbfd005fb2073b6127eb3ebd7de2d6108c7d0ab3599"
+    },
+    {
+      "path": "game/audio/cries/060.wav",
+      "bytes": 44230,
+      "sha256": "a1d14d67ed56a8118e38f874243cfeadcc22b2b33b56acb5fd432cc375fdb715"
+    },
+    {
+      "path": "game/audio/cries/061.wav",
+      "bytes": 34166,
+      "sha256": "47f2db15e0436bf43d385ce440f7724ecfda732e3207643af3797fcd7e4484bf"
+    },
+    {
+      "path": "game/audio/cries/062.wav",
+      "bytes": 42744,
+      "sha256": "bb2c3f79e5409170fdf34a397f7428215d7b2f8822561b4afcd885e9a8a9ab3d"
+    },
+    {
+      "path": "game/audio/cries/063.wav",
+      "bytes": 35196,
+      "sha256": "cce0393fd265eee5e35a9ee5b45322ec2005d52f966356ac239b85aea69ee4f5"
+    },
+    {
+      "path": "game/audio/cries/064.wav",
+      "bytes": 27594,
+      "sha256": "c5ee88e9f84bde7caca9542b0ca9898231c0b15946f7c4019ac3fecfbf5a901f"
+    },
+    {
+      "path": "game/audio/cries/065.wav",
+      "bytes": 34860,
+      "sha256": "fcbef37738ff480f09634db1b646a9fecd5ea8d9396fc75420dd909fa9c7d944"
+    },
+    {
+      "path": "game/audio/cries/066.wav",
+      "bytes": 46318,
+      "sha256": "7a67d9215d6b1412d82b49c072f67555a501311236161ef5cdd6f539f6de6a8a"
+    },
+    {
+      "path": "game/audio/cries/067.wav",
+      "bytes": 31070,
+      "sha256": "6ca48aa6e278f9dbb19e3bd473227f2d8cfe867b526bb4711145821e11dd703b"
+    },
+    {
+      "path": "game/audio/cries/068.wav",
+      "bytes": 43168,
+      "sha256": "d957001b34d67fb70376f2382acce4fc3cebdda0b657d0148a53f7b35fb1c021"
+    },
+    {
+      "path": "game/audio/cries/069.wav",
+      "bytes": 30026,
+      "sha256": "a6829df98f010cc023b228316693d6a744a2d1a3a671c2835f51a57f106ead87"
+    },
+    {
+      "path": "game/audio/cries/070.wav",
+      "bytes": 37190,
+      "sha256": "8efb9d1efdfd0ca92b429908cda3d716b70b4af565314553fd09c529ebac8f0c"
+    },
+    {
+      "path": "game/audio/cries/071.wav",
+      "bytes": 32304,
+      "sha256": "fcceae39bdc76050d857e71271f360f31a2037a0adc889adebb680269e70605b"
+    },
+    {
+      "path": "game/audio/cries/072.wav",
+      "bytes": 41774,
+      "sha256": "d975517a063759f2703094762cdf9266dd372ff5e979cf646d407fe11933feda"
+    },
+    {
+      "path": "game/audio/cries/073.wav",
+      "bytes": 28308,
+      "sha256": "0df41914a386a958c7505f237a0dc4ac4531c764bea8b28b2bf578711645d7ed"
+    },
+    {
+      "path": "game/audio/cries/074.wav",
+      "bytes": 44078,
+      "sha256": "f7debc52755c02083e2e593071c205b6f13b9180c05eff3813ec2f46e0583e1c"
+    },
+    {
+      "path": "game/audio/cries/075.wav",
+      "bytes": 28394,
+      "sha256": "8fdd148698af068459130c7059157b0942920a958c78f47b782c8fcf8d6665dd"
+    },
+    {
+      "path": "game/audio/cries/076.wav",
+      "bytes": 44174,
+      "sha256": "90291a8b13b24eaddcb2af5313b25e4df74620c5e4a58772c775919e6cdb4352"
+    },
+    {
+      "path": "game/audio/cries/077.wav",
+      "bytes": 31866,
+      "sha256": "842f382d1c4767b2f62e185842aaf58102644bf0f0983122e98a78b2f1827517"
+    },
+    {
+      "path": "game/audio/cries/078.wav",
+      "bytes": 43222,
+      "sha256": "8109daeb2e8fdce1181e7b7ac837e14a9d7cfef79496ff613f66fbae39df1773"
+    },
+    {
+      "path": "game/audio/cries/079.wav",
+      "bytes": 34032,
+      "sha256": "7b135d2ffc486324590361cd0f0a8eb7da0e74ffd6a73f010ad2506bbbcf00bd"
+    },
+    {
+      "path": "game/audio/cries/080.wav",
+      "bytes": 37030,
+      "sha256": "921612d43925cbab3857485ccfc91ae0f80f663f59394374a2a33dd8e7bded7d"
+    },
+    {
+      "path": "game/audio/cries/081.wav",
+      "bytes": 33494,
+      "sha256": "2e9d5dd597d9dfdecb2dcd2017acf6f17a805477f9e2700589e694dae8e0e5ee"
+    },
+    {
+      "path": "game/audio/cries/082.wav",
+      "bytes": 28480,
+      "sha256": "86468ec4fb1fd25b442341e17af3995a95c190b47a47c5cb078b1db59798336f"
+    },
+    {
+      "path": "game/audio/cries/083.wav",
+      "bytes": 41534,
+      "sha256": "f7ed0f7730cd0656451cd9968d83432b65b0f20e4887ad950f7410dcf65cb3a3"
+    },
+    {
+      "path": "game/audio/cries/084.wav",
+      "bytes": 46422,
+      "sha256": "4db372fcf27bbce5f058720cc724e97db3ac3889649cfbea13c40a6c9768e87b"
+    },
+    {
+      "path": "game/audio/cries/085.wav",
+      "bytes": 30068,
+      "sha256": "4ddb9d16a8d12958c50f166842093badd82d3c0a444e394be42232e3f06ac2ed"
+    },
+    {
+      "path": "game/audio/cries/086.wav",
+      "bytes": 43742,
+      "sha256": "3e6e37ef206b31f071efc916632c2e54d14f8c73eb36f3fa236fa3f03bb69df8"
+    },
+    {
+      "path": "game/audio/cries/087.wav",
+      "bytes": 33674,
+      "sha256": "726cfd8ec17e2ef3401338d8776f373f575395052b15b295ba572e2b07cb0519"
+    },
+    {
+      "path": "game/audio/cries/088.wav",
+      "bytes": 40584,
+      "sha256": "04f3d2cd0e7709c9e77ca6b2737bc3abc5ccb4b8d2019ed87e7a38a5474b1786"
+    },
+    {
+      "path": "game/audio/cries/089.wav",
+      "bytes": 29218,
+      "sha256": "a7af959f6820e86baf896758701f8d1d2f2fd49c121d2ed80957954bb453cd25"
+    },
+    {
+      "path": "game/audio/cries/090.wav",
+      "bytes": 43206,
+      "sha256": "a7a1d783600cd6215bd318dd2cf82d716933f31b88ada59bd54d8f1e0d237f6a"
+    },
+    {
+      "path": "game/audio/cries/091.wav",
+      "bytes": 27894,
+      "sha256": "4bbf7fe0c86e53fee8bb60ffe826c43368149d23f7229ce8702b8ff4c959f613"
+    },
+    {
+      "path": "game/audio/cries/092.wav",
+      "bytes": 39742,
+      "sha256": "65fd9c6ede351c5bc9653b4d349604e5f4b0108f04b7fdf6d973122257e72068"
+    },
+    {
+      "path": "game/audio/cries/093.wav",
+      "bytes": 31784,
+      "sha256": "13ae46f3cf8c12b840fc8686eea4641bad6fdeae353686de4003881876f795c7"
+    },
+    {
+      "path": "game/audio/cries/094.wav",
+      "bytes": 39730,
+      "sha256": "8b49976659df5ec741ccdf031d6e30f2aff1418c52b62afde21fc41793c0bfc6"
+    },
+    {
+      "path": "game/audio/cries/095.wav",
+      "bytes": 25764,
+      "sha256": "20b600ad35592175aa3ce2a0b6a5322428cf22ad0a545ea9febdc78bd2bbcf2f"
+    },
+    {
+      "path": "game/audio/cries/096.wav",
+      "bytes": 40128,
+      "sha256": "ad49299192b8d40bc2584d9b70a59b1f2684d1d7b85490ed7c5450374f22f35d"
+    },
+    {
+      "path": "game/audio/cries/097.wav",
+      "bytes": 29070,
+      "sha256": "c40f2520d4449ada538f51cf519d6f45de608402d23468f341acb8ec340349ec"
+    },
+    {
+      "path": "game/audio/cries/098.wav",
+      "bytes": 38044,
+      "sha256": "9471a01dab05ef668f3889165694a46969675139d06fddb5aeeee2ae42828ded"
+    },
+    {
+      "path": "game/audio/cries/099.wav",
+      "bytes": 32828,
+      "sha256": "260f2947e0c7a7bfb25aa6e7041f758ae09090e4d9a60de42c42382378e1a732"
+    },
+    {
+      "path": "game/audio/cries/100.wav",
+      "bytes": 27202,
+      "sha256": "c159c7bd5020e93e007534dfc9ccc4bd3b02af078d58b29c78a8383837fe02e3"
+    },
+    {
+      "path": "game/audio/cries/101.wav",
+      "bytes": 37092,
+      "sha256": "706d13b4ee69a429d19ba9ad1b7f8467f213d3355064114fa769e92b912c329e"
+    },
+    {
+      "path": "game/audio/cries/102.wav",
+      "bytes": 49800,
+      "sha256": "0dcfe2d92bdea171ce4e77d1cd5c2835f7929684a0541ab9de3021fef4d33f14"
+    },
+    {
+      "path": "game/audio/cries/103.wav",
+      "bytes": 31594,
+      "sha256": "ad2414321899bd70d3c537f8ea874b84a6536b24fcb50ca2ec0896899abd6990"
+    },
+    {
+      "path": "game/audio/cries/104.wav",
+      "bytes": 41352,
+      "sha256": "0101f7da3304deddb1c3ed6f1463a2749f35f7abd7f81144bb54b58562607584"
+    },
+    {
+      "path": "game/audio/cries/105.wav",
+      "bytes": 33500,
+      "sha256": "8972ca5dc0c5a4fa1d7156ba228b51774245cac5f6655eab9d1f697d57b181c0"
+    },
+    {
+      "path": "game/audio/cries/106.wav",
+      "bytes": 40570,
+      "sha256": "aa0e06d556a24d41b27d0da460a529569c1f5d9240e56baffe2d440eb83239ac"
+    },
+    {
+      "path": "game/audio/cries/107.wav",
+      "bytes": 31056,
+      "sha256": "28a953363960e537f1a0686e552d195188880abde775a8575d9e4fff0c29b0b6"
+    },
+    {
+      "path": "game/audio/cries/108.wav",
+      "bytes": 42788,
+      "sha256": "10b7a039d366689f92f46d8225e5bb1c0b35a2fb4d7f10f63abe57b079dbf4d2"
+    },
+    {
+      "path": "game/audio/cries/109.wav",
+      "bytes": 30920,
+      "sha256": "c1eaa7759b79fa461a0f6a1b26c8e001769e0d16400255e27f0a71d847e14662"
+    },
+    {
+      "path": "game/audio/cries/110.wav",
+      "bytes": 43296,
+      "sha256": "90755f2b7fa426191614faa4c6f7376c2acb7911fa433ec79107dc98322a0e49"
+    },
+    {
+      "path": "game/audio/cries/111.wav",
+      "bytes": 33564,
+      "sha256": "8642176400673348782da4c1a4d1430204473cb376bfbbbc1723fcfbde9fa1f7"
+    },
+    {
+      "path": "game/audio/cries/112.wav",
+      "bytes": 44866,
+      "sha256": "e37497caaa2b7b1d92cebe6c44538fb3836b3bf5af1c2204fb9af0d8b4f6212c"
+    },
+    {
+      "path": "game/audio/cries/113.wav",
+      "bytes": 27188,
+      "sha256": "9298d1754003ca439224285f0788cf360ae18e961d72fa94bd81c7719178c500"
+    },
+    {
+      "path": "game/audio/cries/114.wav",
+      "bytes": 43264,
+      "sha256": "f6fac8c77e3a287fb943fae73956c0d38cd55dceba60bde3cbbf02f93e598173"
+    },
+    {
+      "path": "game/audio/cries/115.wav",
+      "bytes": 29750,
+      "sha256": "243a0808d715635035231186382c23d07b0bbad4ff6fdda61435485161657f0d"
+    },
+    {
+      "path": "game/audio/cries/116.wav",
+      "bytes": 43364,
+      "sha256": "edc5655459f91c84366016f9eabff4527533e30a3a55537009a53437831e9b0b"
+    },
+    {
+      "path": "game/audio/cries/117.wav",
+      "bytes": 37678,
+      "sha256": "f6a62c67e6212c201ab9d8b082bdc971c2a9a4b4481e9bcdc6341498586f187e"
+    },
+    {
+      "path": "game/audio/cries/118.wav",
+      "bytes": 27238,
+      "sha256": "66533759cf9a679d474af200fccd1c6dcc0b2c6e9e289629d27a921767d6e550"
+    },
+    {
+      "path": "game/audio/cries/119.wav",
+      "bytes": 36590,
+      "sha256": "d797ffb6c476b4c2413f358880ce3136e35599b72cb149ee88f374aec9110675"
+    },
+    {
+      "path": "game/audio/cries/120.wav",
+      "bytes": 48114,
+      "sha256": "832beb54076f1779f27b190aa984e8d63a879a8fbdf030c0e9549acf6c999473"
+    },
+    {
+      "path": "game/audio/cries/121.wav",
+      "bytes": 28056,
+      "sha256": "0c0ea51765d266102cf8352a13ce2281076909655d84ef9a342c90996fa9e2c7"
+    },
+    {
+      "path": "game/audio/cries/122.wav",
+      "bytes": 41222,
+      "sha256": "bfb44441e4a5ff2d8936c43b714c18ff704165f98f85970db4e0dc3cd985749b"
+    },
+    {
+      "path": "game/audio/cries/123.wav",
+      "bytes": 28448,
+      "sha256": "a90f3b2629208eb2222dbdea3663a0db2b455bc3b10b27c4488a623770237f2f"
+    },
+    {
+      "path": "game/audio/cries/124.wav",
+      "bytes": 44644,
+      "sha256": "a742e9bbb942c79df62cdb7b4fc55cab3559a34c6809b029d9204ba1d7ff03b3"
+    },
+    {
+      "path": "game/audio/cries/125.wav",
+      "bytes": 27914,
+      "sha256": "2cb5b816d561f7cd2914f024e57bfb77a4056bd3cdf62255a98c968969859964"
+    },
+    {
+      "path": "game/audio/cries/126.wav",
+      "bytes": 38072,
+      "sha256": "075f11d51b48677761071168935d106e235ba19855a8c74ec8440637fac454d8"
+    },
+    {
+      "path": "game/audio/cries/127.wav",
+      "bytes": 32204,
+      "sha256": "93f5b7b5dde3b7ff966bc46768f75409d787ebdd2f9a4b2696059462d0b74477"
+    },
+    {
+      "path": "game/audio/cries/128.wav",
+      "bytes": 40134,
+      "sha256": "7b9caea631750d898f6f6fe63ab853c9635388888cee3d52d196c0025c9a87b1"
+    },
+    {
+      "path": "game/audio/cries/129.wav",
+      "bytes": 27666,
+      "sha256": "52289f4ea12bfa84b9f8d7a5114aedb6f968f13d285c6637c5b5ab46ab8d3dd6"
+    },
+    {
+      "path": "game/audio/cries/130.wav",
+      "bytes": 37404,
+      "sha256": "dbc66810cf7b6a604cd2cb26963e2a0c25e5094754c2955f23c815b92e2eaf28"
+    },
+    {
+      "path": "game/audio/cries/131.wav",
+      "bytes": 27022,
+      "sha256": "5c8960f4d028518c521fe02b7db6cc5f6bb6ef8065c45cf328d60212cd54a0cb"
+    },
+    {
+      "path": "game/audio/cries/132.wav",
+      "bytes": 38274,
+      "sha256": "6d35a30ff77004efffe613c686270c46a0e425bc6c6d8d1480540258aa4995e7"
+    },
+    {
+      "path": "game/audio/cries/133.wav",
+      "bytes": 27950,
+      "sha256": "19cb1b2828e4da8646002bb492c6f59fe4d23abbf79c6db41dbee83ae8e773a5"
+    },
+    {
+      "path": "game/audio/cries/134.wav",
+      "bytes": 44922,
+      "sha256": "09935ff394084f81b26b211de35fb546468a3c68617d25c80b41dacc2d79b307"
+    },
+    {
+      "path": "game/audio/cries/135.wav",
+      "bytes": 37384,
+      "sha256": "6738b72a57a0a2b64104a09a9265cf6e59cfc7f6968902b47b429527b0a13a77"
+    },
+    {
+      "path": "game/audio/cries/136.wav",
+      "bytes": 31220,
+      "sha256": "63a33dc11318c6c04e4ca42d6fb437005c07d8864646c3b0090e989074d8b847"
+    },
+    {
+      "path": "game/audio/cries/137.wav",
+      "bytes": 38712,
+      "sha256": "f3f919e1f183e764a4027e037fb6291488cfef0b256e61a745ba814fde486335"
+    },
+    {
+      "path": "game/audio/cries/138.wav",
+      "bytes": 48290,
+      "sha256": "e1c512ced9f32cfa7810d16ae7e63a127a791a37d453494552b8887371b3c02a"
+    },
+    {
+      "path": "game/audio/cries/139.wav",
+      "bytes": 31310,
+      "sha256": "6fdef8d1778402fb98b43d5fb9e0367ebb3bb743c6cbbc50187520ff8d968003"
+    },
+    {
+      "path": "game/audio/cries/140.wav",
+      "bytes": 41570,
+      "sha256": "5fdda04cee7cb7a79937adf7d80dd2fd870ebaf06b1330a9a0411fd0a22ad350"
+    },
+    {
+      "path": "game/audio/cries/141.wav",
+      "bytes": 51466,
+      "sha256": "ebe8201055251714f72eccadd353f00287159d80b82d19b50da6fecc8e61e8b6"
+    },
+    {
+      "path": "game/audio/cries/142.wav",
+      "bytes": 27964,
+      "sha256": "d2f5daa5a5d40a66628850ec7ebad947bdc8ce260d7718c8a651261c07e2f940"
+    },
+    {
+      "path": "game/audio/cries/143.wav",
+      "bytes": 38862,
+      "sha256": "9b86e835f04e76153ab5c4432baabc9ebe0b8c80d3aa483b86789b7ba9b006f1"
+    },
+    {
+      "path": "game/audio/cries/144.wav",
+      "bytes": 37770,
+      "sha256": "2e20d722e6f242483bbda692d3324145efba976663ccba83fcb9cec1939f1b23"
+    },
+    {
+      "path": "game/audio/cries/145.wav",
+      "bytes": 45416,
+      "sha256": "1a1bd7f69b0139732ba9203558b13b0cd92fe164537321796c7e809ee8b79342"
+    },
+    {
+      "path": "game/audio/cries/146.wav",
+      "bytes": 46996,
+      "sha256": "0e122b7a75dde41bb3cee8f752facad3ccfb0b3fff55a6ad40c2802dab28b19b"
+    },
+    {
+      "path": "game/audio/cries/147.wav",
+      "bytes": 43702,
+      "sha256": "6a6f079e863a130ea3085ece3d74d7ca9c4ae40dd61321cf73151556b0e4a1c5"
+    },
+    {
+      "path": "game/audio/cries/148.wav",
+      "bytes": 47864,
+      "sha256": "04052a119ebe1fb3c611d87d608671b34a880a4107ae351c13b2852bbee41433"
+    },
+    {
+      "path": "game/audio/cries/149.wav",
+      "bytes": 43386,
+      "sha256": "e56c4091bdcf63bb52d113a15a97d1d0899a8e5ac8abc19bad8340737d702ec6"
+    },
+    {
+      "path": "game/audio/cries/150.wav",
+      "bytes": 46530,
+      "sha256": "ec7b64bc0d622f7ddacdfa5bd03cc8e3f5b03b66cd9257c7067a2eed9015cc38"
+    },
+    {
+      "path": "game/audio/cries/151.wav",
+      "bytes": 40366,
+      "sha256": "d457702bdd8ffbb86646f6efedcf715e3f8680cb2f43c0cfcf35676ac1b29bed"
+    },
+    {
+      "path": "game/audio/manifest.json",
+      "bytes": 204308,
+      "sha256": "f9d6eecc8016e00be13c81ca3935dd74a0bbfd68942de45842450d113a9062f4"
+    },
+    {
+      "path": "game/audio/music/battle-final.mp3",
+      "bytes": 449194,
+      "sha256": "b06b94d0c7603b543d7d424343c9a157daeff85e049b8c862c69c059702c4869"
+    },
+    {
+      "path": "game/audio/music/battle-rival.mp3",
+      "bytes": 449194,
+      "sha256": "b13bb360e648894ac9da3853538635b32c6e6b73b7bafc0848883c88dc727891"
+    },
+    {
+      "path": "game/audio/music/battle-warden.mp3",
+      "bytes": 464818,
+      "sha256": "eae84b9c990dece53a1ac28fc3f4f237b68006591d1a12fe16e4ef90f8510d00"
+    },
+    {
+      "path": "game/audio/music/battle-wild.mp3",
+      "bytes": 449194,
+      "sha256": "019fbba4edc886fa704b05645cdea6ad663d4a60f74d7e968de51089a8b3f980"
+    },
+    {
+      "path": "game/audio/music/region-0.mp3",
+      "bytes": 481450,
+      "sha256": "b6797d1bf1239f678867a3e00ffacd75f665debcb44fd6a66ab885993b180d93"
+    },
+    {
+      "path": "game/audio/music/region-1.mp3",
+      "bytes": 499090,
+      "sha256": "9d442890e3f82479cebbfc2e2727983603e771036408a7ca3b59f18c05846540"
+    },
+    {
+      "path": "game/audio/music/region-2.mp3",
+      "bytes": 561586,
+      "sha256": "5b5092b6a8313568cfd697dfc2bd57fe88ffc118102767ffbb7b3f0a2013966e"
+    },
+    {
+      "path": "game/audio/music/region-3.mp3",
+      "bytes": 464818,
+      "sha256": "34472791948e181b29c17849c57ef1590a32f63116440835290733fbfc86cb7b"
+    },
+    {
+      "path": "game/audio/music/region-4.mp3",
+      "bytes": 626602,
+      "sha256": "d5cd2a76e8053b6df20b48bf6bca2b7a0a15a93ecc26b9d0ecfb849aa0eb1366"
+    },
+    {
+      "path": "game/audio/music/region-5.mp3",
+      "bytes": 499090,
+      "sha256": "2c5854292aee2bf034fc10d9f7cffcf15bf41b5f89186fb295fb65fe90d26424"
+    },
+    {
+      "path": "game/audio/music/region-6.mp3",
+      "bytes": 612490,
+      "sha256": "33f6aaf0802641d0493c30d578913ded0e471c0fad4ab8517cca5d76667b6c56"
+    },
+    {
+      "path": "game/audio/music/region-7.mp3",
+      "bytes": 585778,
+      "sha256": "fdddc86952fa299606719390401710aed2a1be3c01e7a3f4c635e643c054d31f"
+    },
+    {
+      "path": "game/audio/music/region-8.mp3",
+      "bytes": 518242,
+      "sha256": "69ce2842c708dcb8cafcff14306d474ecd466d830d74f74594e9fa63a9ebb682"
+    },
+    {
+      "path": "game/audio/music/title.mp3",
+      "bytes": 518242,
+      "sha256": "12254519e290a553beb2fb8dee1ae24cdf6172137fcf4447cc8bccc5e3e47aca"
+    },
+    {
+      "path": "game/audio/sfx/attack-astral.wav",
+      "bytes": 33560,
+      "sha256": "559105e8048dfad141794c6679cd4cc6fc10bd6d83065995a50d24ea459bcc5e"
+    },
+    {
+      "path": "game/audio/sfx/attack-dragon.wav",
+      "bytes": 34442,
+      "sha256": "f70f0f27b0b6adf4ab5f23796aa2e013b42b4823af741f44d1851dbf41cfd475"
+    },
+    {
+      "path": "game/audio/sfx/attack-flame.wav",
+      "bytes": 27386,
+      "sha256": "277ba35014b8035b8cdf20a1d8861737fd639a14529f0a3f2c34a76457df6c31"
+    },
+    {
+      "path": "game/audio/sfx/attack-flora.wav",
+      "bytes": 21212,
+      "sha256": "7ec97d46848887de95ce869330967336cd4a3e587447daa18fb11a4fec3f8aab"
+    },
+    {
+      "path": "game/audio/sfx/attack-frost.wav",
+      "bytes": 28268,
+      "sha256": "bae9323486e6a9455185d3f64d0d8188f167df1c1c5a0b770bbf643cf4bc7943"
+    },
+    {
+      "path": "game/audio/sfx/attack-gale.wav",
+      "bytes": 22976,
+      "sha256": "e77df82bb3d37456108dd07a2338e7baa91387aeb17303cf5465e3a777fe0aa6"
+    },
+    {
+      "path": "game/audio/sfx/attack-iron.wav",
+      "bytes": 23858,
+      "sha256": "19b6733c6147f9d6b529658b7824f2517ca242b230179a3a9855c22f59c78452"
+    },
+    {
+      "path": "game/audio/sfx/attack-mind.wav",
+      "bytes": 28268,
+      "sha256": "83412990f17cf50db140918b56d576595a1750d8f5007ae4aacc0cce9f5df56f"
+    },
+    {
+      "path": "game/audio/sfx/attack-neutral.wav",
+      "bytes": 13274,
+      "sha256": "858e02272869f33c87af286a70a6183d37bc6b97cdbbe7c704dd54d09719d2fe"
+    },
+    {
+      "path": "game/audio/sfx/attack-shade.wav",
+      "bytes": 28708,
+      "sha256": "e408f6652c6337c70ec85cc8cdf8615f241ebecd13dc4fab78e70078c1f5f959"
+    },
+    {
+      "path": "game/audio/sfx/attack-spirit.wav",
+      "bytes": 31796,
+      "sha256": "44bc40e21d0eba495dee67db17e02850df87e6142fcb7683103cd2f92cf3d113"
+    },
+    {
+      "path": "game/audio/sfx/attack-stone.wav",
+      "bytes": 27828,
+      "sha256": "fbdaa0e2319acb9c3ca2e96f990f67365cf73302fd22fa085300df60215f7e4f"
+    },
+    {
+      "path": "game/audio/sfx/attack-swarm.wav",
+      "bytes": 22976,
+      "sha256": "092c1d3dee7f1b8d298a698cea50d5fee4b889c95fc3ecbf098c6c909136f94b"
+    },
+    {
+      "path": "game/audio/sfx/attack-tide.wav",
+      "bytes": 25622,
+      "sha256": "5bde5b23adaa6f71a800b4e73b3e58a6945de7a961728135abdd5da3a38d97dc"
+    },
+    {
+      "path": "game/audio/sfx/attack-venom.wav",
+      "bytes": 27386,
+      "sha256": "336c677bcf2e8dab775c00c7f765f2d13f784e1725123a13d304e59cb7f590cd"
+    },
+    {
+      "path": "game/audio/sfx/attack-volt.wav",
+      "bytes": 19448,
+      "sha256": "87d84dac6849758cd11042b77f8f7bc5d7471d21b4dc4b4214dc52121bc45e9e"
+    },
+    {
+      "path": "game/audio/sfx/capture-fail.wav",
+      "bytes": 19008,
+      "sha256": "e22b767d90fb766b471b2f2601db4cf90868da7f10bb0140438f57ab0105cf0c"
+    },
+    {
+      "path": "game/audio/sfx/capture-shake.wav",
+      "bytes": 10628,
+      "sha256": "df0037ac51211ef7e19207dba1a48f9a977769b10f9014cf5d2db99c106ce827"
+    },
+    {
+      "path": "game/audio/sfx/capture-success.wav",
+      "bytes": 39734,
+      "sha256": "e23e1a5c6041fac7b749dfc6b3209294e694495a4949aeb5df6bf6ad26a3ae33"
+    },
+    {
+      "path": "game/audio/sfx/coin.wav",
+      "bytes": 15038,
+      "sha256": "db7c368d50d5ab1f4bccebf07f5666225d88f8e8205ea783637ce85a45f8350e"
+    },
+    {
+      "path": "game/audio/sfx/critical-hit.wav",
+      "bytes": 15920,
+      "sha256": "6203bd1a251a7427990aca7e2e8cad90e3a75142bd722c796db73ad1b19c736b"
+    },
+    {
+      "path": "game/audio/sfx/dodge.wav",
+      "bytes": 10628,
+      "sha256": "b97141c4d4d65efb8407bc841c0cb29218fbbffba620d5b2f9206e666a012a2e"
+    },
+    {
+      "path": "game/audio/sfx/door.wav",
+      "bytes": 13716,
+      "sha256": "d2fd607c4fed899749a04b790032b6babaad74875a59baa1c900d6838d3b248e"
+    },
+    {
+      "path": "game/audio/sfx/encounter.wav",
+      "bytes": 29592,
+      "sha256": "e4fc6ee20188564ae71648a0680a8f365c7e6d9d52a9634c7cafdb555c6dc132"
+    },
+    {
+      "path": "game/audio/sfx/enemy-warn.wav",
+      "bytes": 16802,
+      "sha256": "45b25b8f7c16c4d27b8db7220acee9b36103119d97c1f6147165ffa7b8c16b1f"
+    },
+    {
+      "path": "game/audio/sfx/faint.wav",
+      "bytes": 32678,
+      "sha256": "feb0e93d6041363017dd1e1ad049b0111e6881365c591e6dc4b49aee4795eee5"
+    },
+    {
+      "path": "game/audio/sfx/heal.wav",
+      "bytes": 40616,
+      "sha256": "ccf3caada6910fdd35d89478feff1e9fb1dc83c8c26074f70aa83da911f02491"
+    },
+    {
+      "path": "game/audio/sfx/hit.wav",
+      "bytes": 8864,
+      "sha256": "eeb7de6c8f3744df12349351ff519adf5aba2acbf9c47181235887fb0480bdb5"
+    },
+    {
+      "path": "game/audio/sfx/level-up.wav",
+      "bytes": 45468,
+      "sha256": "849a9bb843707cc34569c65ed16d6ff1003a41e3a377a3562704e6d15c10e23d"
+    },
+    {
+      "path": "game/audio/sfx/low-hp.wav",
+      "bytes": 12832,
+      "sha256": "a4e56c35167776e4347190f16a902b7d30f2fbf4214612baded08fe0900ca17a"
+    },
+    {
+      "path": "game/audio/sfx/menu-close.wav",
+      "bytes": 7542,
+      "sha256": "b13bff14f1ccece065d2d43de10e2ee2edd897c55d24ffa2528dbb87fcd5f033"
+    },
+    {
+      "path": "game/audio/sfx/menu-open.wav",
+      "bytes": 8424,
+      "sha256": "533ebec7025718d73abb5b4e093061c9677bc73d94d1d97ec590eefa9da5927a"
+    },
+    {
+      "path": "game/audio/sfx/move-burst.wav",
+      "bytes": 17244,
+      "sha256": "4ac646caf67faedfac642724920a2cda140441a8ffab58b249c3d34482c48e27"
+    },
+    {
+      "path": "game/audio/sfx/move-dash.wav",
+      "bytes": 10628,
+      "sha256": "e3a14277357b24b17bb8f1757154254372d7dcf787c379a480edbc9daa41ef54"
+    },
+    {
+      "path": "game/audio/sfx/move-heal.wav",
+      "bytes": 26504,
+      "sha256": "a1172c057c0e2b5e209e5c92380d8008b3ab10009095ef316337c3e86e7a6d54"
+    },
+    {
+      "path": "game/audio/sfx/move-projectile.wav",
+      "bytes": 11952,
+      "sha256": "a83306d18b0f651139cf18611b9e4f8db737cb7b14cce664b402025f51dfc308"
+    },
+    {
+      "path": "game/audio/sfx/quest.wav",
+      "bytes": 37528,
+      "sha256": "b99057aa2ccf1694c90bd2763f81dfca27157ebbee6659c58e8b6f61c7fcacce"
+    },
+    {
+      "path": "game/audio/sfx/save.wav",
+      "bytes": 24300,
+      "sha256": "4b2a9468e38e2ca0197d7babf3649e0b701c955813ca4a2febeb36037118820e"
+    },
+    {
+      "path": "game/audio/sfx/status-burn.wav",
+      "bytes": 16802,
+      "sha256": "c35f0e96f70eea81f0c77fd57b826846a58dfd11fb73536cbab969c9fb3543fd"
+    },
+    {
+      "path": "game/audio/sfx/status-poison.wav",
+      "bytes": 19448,
+      "sha256": "71c0fb530ab0fcd08a9254ad6a4fcdbff175c9b64e8956f9ed7a2cc386ffd2d8"
+    },
+    {
+      "path": "game/audio/sfx/status-slow.wav",
+      "bytes": 20330,
+      "sha256": "201c5fa18939665914dd6822105dd587358b0e8e76c9aedc953c767a37b314c3"
+    },
+    {
+      "path": "game/audio/sfx/status-stun.wav",
+      "bytes": 15038,
+      "sha256": "f6bb05f4dd6542bf776370cd55ff8f28eb81cc879b1a7c6e970701fd5d7e3408"
+    },
+    {
+      "path": "game/audio/sfx/step-grass.wav",
+      "bytes": 3132,
+      "sha256": "cc1ddde190fa654803e9112950a33a2c5cddb4b9427531bf4002a2ffacdcc4e3"
+    },
+    {
+      "path": "game/audio/sfx/step-stone.wav",
+      "bytes": 2910,
+      "sha256": "e7a24ec09eed23b7390a5271dc71477818c8eae535ea6f91b7470b7d2548b3a7"
+    },
+    {
+      "path": "game/audio/sfx/throw.wav",
+      "bytes": 15478,
+      "sha256": "6aa4b32a70d8e4d9eae0fde31461e830c51cb7710c2f29bcaffaad259febce2d"
+    },
+    {
+      "path": "game/audio/sfx/travel.wav",
+      "bytes": 41940,
+      "sha256": "e2747ce1cd57ee7a331022a7388f14493366bea8e9371e5bc83f38178341c97f"
+    },
+    {
+      "path": "game/audio/sfx/ui-back.wav",
+      "bytes": 5776,
+      "sha256": "3e5c9e9618cbec11a92c77f7bfc8a8977d794e618f4b529eecb09b0106505907"
+    },
+    {
+      "path": "game/audio/sfx/ui-confirm.wav",
+      "bytes": 9304,
+      "sha256": "3e3b4189595bec0f7d8b7c50b000ad7d41cf5f5aadfd9bcd58efcae31add58ef"
+    },
+    {
+      "path": "game/audio/sfx/ui-error.wav",
+      "bytes": 11068,
+      "sha256": "637a4932a6ef9e8f64f68198429e950adb489ec36f83ee2bf60cd54217363c16"
+    },
+    {
+      "path": "game/audio/sfx/ui-hover.wav",
+      "bytes": 2470,
+      "sha256": "50219e09e7dec60636c0601fac9f8e7d67fd380f7024a412908e1de0bfc004e4"
+    },
+    {
+      "path": "game/audio/sfx/ui-open.wav",
+      "bytes": 8424,
+      "sha256": "9f3445ef9a2910f7f8e15fb8b9a16d512a0fcb436a9ced61c476574b1caf0d2b"
+    },
+    {
+      "path": "game/audio/sfx/ui-pause.wav",
+      "bytes": 7542,
+      "sha256": "b4212148c688a38b12850788ca574b3568cc1014586c8446275702dfaa3875a4"
+    },
+    {
+      "path": "game/audio/sfx/ui-press.wav",
+      "bytes": 4234,
+      "sha256": "79b3750f679edc2c9bb9ac351262536348807de3641f63eaa491ece346976489"
+    },
+    {
+      "path": "game/audio/sfx/ui-start.wav",
+      "bytes": 23416,
+      "sha256": "69c3c12667cbf7e49930719ad9602e187ef56f00f2590bce3129f1eae18a9cba"
+    },
+    {
+      "path": "game/audio/sfx/ui-tab.wav",
+      "bytes": 4454,
+      "sha256": "12175621a9ab1dd10b49338a4110a7846c98e0fa92df934a74f79033b5649d11"
+    },
+    {
+      "path": "game/audio/stingers/badge.mp3",
+      "bytes": 95386,
+      "sha256": "20394d4bc93af3bcb563413ce7ff90b813bf2d530b02b731abbd432c69258ad7"
+    },
+    {
+      "path": "game/audio/stingers/capture.mp3",
+      "bytes": 61114,
+      "sha256": "968107fa25d6323221761d9d8a3ddc26b3d202c9abac00e52d92a4a4b037b216"
+    },
+    {
+      "path": "game/audio/stingers/defeat.mp3",
+      "bytes": 88330,
+      "sha256": "bfc7254a5d72a43a08b99b36d4d07991bf81cf44f97267cf2f376289cc39e3b5"
+    },
+    {
+      "path": "game/audio/stingers/evolution.mp3",
+      "bytes": 128146,
+      "sha256": "3aed20dd1f63d52c852721a968a9ebfd6686df8aa94a1ea2353fe4330f7db287"
+    },
+    {
+      "path": "game/audio/stingers/victory.mp3",
+      "bytes": 84802,
+      "sha256": "a2a279558f67d1eca72a26c0f2b705e584c2d193cdf1abdfea4b6de94078b986"
+    },
+    {
+      "path": "game/favicon.svg",
+      "bytes": 266,
+      "sha256": "6122347478f624efac7070352b9b91b6e8a20321826c8fe37264637ac21b4379"
+    },
+    {
+      "path": "game/file.svg",
+      "bytes": 392,
+      "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307"
+    },
+    {
+      "path": "game/globe.svg",
+      "bytes": 1036,
+      "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9"
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 586,
+      "sha256": "3ff24c0de4df88b83f912dcb67b550e0d97ff5de392949f6d4e566e8ffec666f"
+    },
+    {
+      "path": "game/licenses/earcut.txt",
+      "bytes": 800,
+      "sha256": "797192845cc506154ecf34fcfa1b5074371ed02d60128790a9e77d272f6b2f90"
+    },
+    {
+      "path": "game/licenses/eventemitter3.txt",
+      "bytes": 1150,
+      "sha256": "5231f0d0edcdf5eecc9cf6d5966aaa3655d23c555dbd7501b1dbd3e1d67e4bed"
+    },
+    {
+      "path": "game/licenses/floating-ui.txt",
+      "bytes": 1162,
+      "sha256": "d30aebb8623f13ee248fe58e587040af36c69fe7d848a673b6b00b3cab71b4d3"
+    },
+    {
+      "path": "game/licenses/lucide.txt",
+      "bytes": 2029,
+      "sha256": "a56e9a99cfd7ab88f315c5f4dd568c2f8e4c6f5bf18d4bbecc52eb4ee7dd8d96"
+    },
+    {
+      "path": "game/licenses/motion.txt",
+      "bytes": 1169,
+      "sha256": "c2d8a185d5bda349d91504d80806c21bdf911638b59b4d8db299f5eae1bd22f0"
+    },
+    {
+      "path": "game/licenses/pixijs.txt",
+      "bytes": 1156,
+      "sha256": "61a94a6411ce98bdabba9b18e44f25285d35eba90b4b539c38a5f0ed5eb8e152"
+    },
+    {
+      "path": "game/licenses/radix-ui.txt",
+      "bytes": 1138,
+      "sha256": "c8815cea328c90589cafe8168a7a4b03af3932709e763d2d75b74891781b6ce2"
+    },
+    {
+      "path": "game/licenses/react.txt",
+      "bytes": 1158,
+      "sha256": "d55873c0e87d40adb9ed28c8f7acd6f8fc4ad20886b678b2ba678edbb23ce2bd"
+    },
+    {
+      "path": "game/licenses/remotion.md",
+      "bytes": 2977,
+      "sha256": "dfba0042a28f0d8fe193bdc45b3e39049bdc76b909955255a06809f57edd4e49"
+    },
+    {
+      "path": "game/licenses/tailwindcss.txt",
+      "bytes": 1151,
+      "sha256": "fd7621d0e55a6b3a7acffdd62edc9ea81b7fb5ac67d1e9d0c7d92510a0a2262b"
+    },
+    {
+      "path": "game/offline-release.json",
+      "bytes": 93,
+      "sha256": "4409cc57feaf0bd1a1e0d6b8fb73774047f7f0dae1c3d2a76f885a7a1bc98e0b"
+    },
+    {
+      "path": "game/serve.mjs",
+      "bytes": 3067,
+      "sha256": "1ca3ed09552ac16099183d3c5dba4e9f1ae3e84f2f56ab6637d596a3cd52719d"
+    },
+    {
+      "path": "game/sw.js",
+      "bytes": 12660,
+      "sha256": "9afa58d24ae3215950d48d001f6c902489acbc4ed28405a3fb742f7054ee3d25"
+    },
+    {
+      "path": "game/window.svg",
+      "bytes": 386,
+      "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66"
+    },
+    {
+      "path": "licenses/earcut.txt",
+      "bytes": 800,
+      "sha256": "797192845cc506154ecf34fcfa1b5074371ed02d60128790a9e77d272f6b2f90"
+    },
+    {
+      "path": "licenses/eventemitter3.txt",
+      "bytes": 1150,
+      "sha256": "5231f0d0edcdf5eecc9cf6d5966aaa3655d23c555dbd7501b1dbd3e1d67e4bed"
+    },
+    {
+      "path": "licenses/floating-ui.txt",
+      "bytes": 1162,
+      "sha256": "d30aebb8623f13ee248fe58e587040af36c69fe7d848a673b6b00b3cab71b4d3"
+    },
+    {
+      "path": "licenses/lucide.txt",
+      "bytes": 2029,
+      "sha256": "a56e9a99cfd7ab88f315c5f4dd568c2f8e4c6f5bf18d4bbecc52eb4ee7dd8d96"
+    },
+    {
+      "path": "licenses/motion.txt",
+      "bytes": 1169,
+      "sha256": "c2d8a185d5bda349d91504d80806c21bdf911638b59b4d8db299f5eae1bd22f0"
+    },
+    {
+      "path": "licenses/pixijs.txt",
+      "bytes": 1156,
+      "sha256": "61a94a6411ce98bdabba9b18e44f25285d35eba90b4b539c38a5f0ed5eb8e152"
+    },
+    {
+      "path": "licenses/radix-ui.txt",
+      "bytes": 1138,
+      "sha256": "c8815cea328c90589cafe8168a7a4b03af3932709e763d2d75b74891781b6ce2"
+    },
+    {
+      "path": "licenses/react.txt",
+      "bytes": 1158,
+      "sha256": "d55873c0e87d40adb9ed28c8f7acd6f8fc4ad20886b678b2ba678edbb23ce2bd"
+    },
+    {
+      "path": "licenses/remotion.md",
+      "bytes": 2977,
+      "sha256": "dfba0042a28f0d8fe193bdc45b3e39049bdc76b909955255a06809f57edd4e49"
+    },
+    {
+      "path": "licenses/tailwindcss.txt",
+      "bytes": 1151,
+      "sha256": "fd7621d0e55a6b3a7acffdd62edc9ea81b7fb5ac67d1e9d0c7d92510a0a2262b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 684,
+      "sha256": "4a3f939230f64aa314f21decad151770565f366896f6a013832a8e8bb81fdc8f"
+    },
+    {
+      "path": "release-manifest.json",
+      "bytes": 1018,
+      "sha256": "ec5c43e208fdaf56920a699f56b27b9c09320531360660bc2d5ecfe07ae356c5"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 518,
+      "sha256": "08e0f3caaaa7d767a7cf3fc2a3a01736341d414969ff89d5da609ee86f8b2bed"
+    },
+    {
+      "path": "scripts/lib.mjs",
+      "bytes": 1808,
+      "sha256": "fbdcbcabff7a248d76b04487293f8dffbafd1f41c1624f65ffe92bc6e48c830c"
+    },
+    {
+      "path": "scripts/manifest.mjs",
+      "bytes": 424,
+      "sha256": "46cc34d40078a94c02d04ced8461951880ed722b44496f371d29c6c93f73e9e8"
+    },
+    {
+      "path": "scripts/package-release.mjs",
+      "bytes": 3351,
+      "sha256": "5b082f13fe69d67f3caafe1e8f4dac47dfd3c3d5aeba767fac068ff497e2c9c4"
+    },
+    {
+      "path": "scripts/privacy-audit.mjs",
+      "bytes": 2067,
+      "sha256": "e7bb6858cbf93d75d9def36b3cc447a33afa5ca7016c2e361b38ef9ad1e73937"
+    },
+    {
+      "path": "scripts/publish.mjs",
+      "bytes": 11430,
+      "sha256": "261a2c30a3d65be110f0edfce4bef0b4da12d6c9782eebf10b412426baa20fc6"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 3073,
+      "sha256": "13cb93af8a90733336c4221331b702dddfa9cb08e027e87c3f3ca21da68d45ee"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 2675,
+      "sha256": "51eb1d55588c94a2f010161a680876978b61c8699c06bb9fc399a517ff0e5209"
+    },
+    {
+      "path": "tests/distribution.test.mjs",
+      "bytes": 3196,
+      "sha256": "186596d5ffbb9836a8df7c65d850eb4bfee7031379d5ef0f35f22c318edf2c6c"
+    },
+    {
+      "path": "trailer/README.md",
+      "bytes": 3313,
+      "sha256": "080416a2b2d03060df8821e41827ee10373b8a43a47fef9bf3df504cefbbb6dd"
+    },
+    {
+      "path": "trailer/build-audio.py",
+      "bytes": 7461,
+      "sha256": "efdc8b7019cc066327582afce84985a6046bbbe55b80f54bd6667f1660f923bb"
+    },
+    {
+      "path": "trailer/clips/01-explore.mp4",
+      "bytes": 14219600,
+      "sha256": "7abcebf1d27834b2c652b00f0161bf358023b409a91beac18b3d68ad63f8c0d4"
+    },
+    {
+      "path": "trailer/clips/02-discover.mp4",
+      "bytes": 3065715,
+      "sha256": "deed252cf7a4d4d026dbc98e8594a41568b8e8a6d2fca0ea03a8b24db8fab499"
+    },
+    {
+      "path": "trailer/clips/03-battle.mp4",
+      "bytes": 3219945,
+      "sha256": "8668814705ba5dab9f4b68a124106756632129843f07b3687edbe7e54880b33c"
+    },
+    {
+      "path": "trailer/clips/04-capture.mp4",
+      "bytes": 7854392,
+      "sha256": "4387d7865cce45f716efb0d2e5a89bae5ea3d47b94e1fc5fdf791f940fc885b7"
+    },
+    {
+      "path": "trailer/clips/05-beacon.mp4",
+      "bytes": 3244518,
+      "sha256": "37121a3c7235a49d40dbba82cd889e466e6b41b33b4d0d6807c4353abdaaec23"
+    },
+    {
+      "path": "trailer/clips/06-save.mp4",
+      "bytes": 7453214,
+      "sha256": "f7f2567fd24d2ec23e920ab0e8cd2ff219197e1899c6fa751ec77df84cbd16ad"
+    },
+    {
+      "path": "trailer/clips/07-evolution.mp4",
+      "bytes": 924761,
+      "sha256": "7dce6907562188990e7bcbe75603e22ef1103428639231db0c93c4db05acd3ee"
+    },
+    {
+      "path": "trailer/clips/events.json",
+      "bytes": 11478,
+      "sha256": "c010dcdca12f239f754005040bde36b952a163fbb04737d381de2dd7f513a06c"
+    },
+    {
+      "path": "trailer/clips/manifest.json",
+      "bytes": 7691,
+      "sha256": "19ce85662ce7cff6da9f5f363db562b42b4fd075ecdd705b8c29d4889a9b3875"
+    },
+    {
+      "path": "trailer/clips/qa.json",
+      "bytes": 859,
+      "sha256": "00fa0b48fe052f622c86f7c8aaf41d8c3a783281d97c79e2f7ec13ea909457a6"
+    },
+    {
+      "path": "trailer/compose-orchestral-score.py",
+      "bytes": 11100,
+      "sha256": "c4017b68cb371068ce6ee7ed7836dcd8f6a80e8a0c27b5cb20815c61200e1c98"
+    },
+    {
+      "path": "trailer/finalize-video.py",
+      "bytes": 4117,
+      "sha256": "6dd65198f1be76995e97bc1dbfdcc2a38e2f35a7130acfcba82c24ad888d2ef8"
+    },
+    {
+      "path": "trailer/orchestral-score.json",
+      "bytes": 1076,
+      "sha256": "950b156ed361d43b059ea07df4bba2f84998b6d59d03d7d1b29c1463ae281865"
+    },
+    {
+      "path": "trailer/package.json",
+      "bytes": 963,
+      "sha256": "9769a287e398d8882cf459d32b5ae2f358e9583678ae63aac039326e2368171b"
+    },
+    {
+      "path": "trailer/prepare-remotion.mjs",
+      "bytes": 861,
+      "sha256": "98c0e4aa7534edd2a7a4af3e0959057a459a8086986c260f4622731c6affd16b"
+    },
+    {
+      "path": "trailer/public/audio/cries-007.wav",
+      "bytes": 27360,
+      "sha256": "78b779e350fbc0be34f7f5490cc7b474cdb8a806cd2c7e9deb16f7c53be9ab81"
+    },
+    {
+      "path": "trailer/public/audio/cries-016.wav",
+      "bytes": 31766,
+      "sha256": "3b5e19ba8c4a63828abf234834c882672effb301a2eb7b2dba79eea63f9af853"
+    },
+    {
+      "path": "trailer/public/audio/mix.wav",
+      "bytes": 9600078,
+      "sha256": "f99a3c09023f48cd5733bc5d04cd0a42ad1793b4881dbde7d7301e5f95765b14"
+    },
+    {
+      "path": "trailer/public/audio/orchestral-score.wav",
+      "bytes": 6400044,
+      "sha256": "d951e8a5466424db10ae5ea91ad6336bcfd753e99cb663a0a312161db46ee297"
+    },
+    {
+      "path": "trailer/public/audio/sfx-attack-neutral.wav",
+      "bytes": 13274,
+      "sha256": "858e02272869f33c87af286a70a6183d37bc6b97cdbbe7c704dd54d09719d2fe"
+    },
+    {
+      "path": "trailer/public/audio/sfx-attack-tide.wav",
+      "bytes": 25622,
+      "sha256": "5bde5b23adaa6f71a800b4e73b3e58a6945de7a961728135abdd5da3a38d97dc"
+    },
+    {
+      "path": "trailer/public/audio/sfx-capture-shake.wav",
+      "bytes": 10628,
+      "sha256": "df0037ac51211ef7e19207dba1a48f9a977769b10f9014cf5d2db99c106ce827"
+    },
+    {
+      "path": "trailer/public/audio/sfx-capture-success.wav",
+      "bytes": 39734,
+      "sha256": "e23e1a5c6041fac7b749dfc6b3209294e694495a4949aeb5df6bf6ad26a3ae33"
+    },
+    {
+      "path": "trailer/public/audio/sfx-dodge.wav",
+      "bytes": 10628,
+      "sha256": "b97141c4d4d65efb8407bc841c0cb29218fbbffba620d5b2f9206e666a012a2e"
+    },
+    {
+      "path": "trailer/public/audio/sfx-encounter.wav",
+      "bytes": 29592,
+      "sha256": "e4fc6ee20188564ae71648a0680a8f365c7e6d9d52a9634c7cafdb555c6dc132"
+    },
+    {
+      "path": "trailer/public/audio/sfx-enemy-warn.wav",
+      "bytes": 16802,
+      "sha256": "45b25b8f7c16c4d27b8db7220acee9b36103119d97c1f6147165ffa7b8c16b1f"
+    },
+    {
+      "path": "trailer/public/audio/sfx-heal.wav",
+      "bytes": 40616,
+      "sha256": "ccf3caada6910fdd35d89478feff1e9fb1dc83c8c26074f70aa83da911f02491"
+    },
+    {
+      "path": "trailer/public/audio/sfx-hit.wav",
+      "bytes": 8864,
+      "sha256": "eeb7de6c8f3744df12349351ff519adf5aba2acbf9c47181235887fb0480bdb5"
+    },
+    {
+      "path": "trailer/public/audio/sfx-move-burst.wav",
+      "bytes": 17244,
+      "sha256": "4ac646caf67faedfac642724920a2cda140441a8ffab58b249c3d34482c48e27"
+    },
+    {
+      "path": "trailer/public/audio/sfx-move-dash.wav",
+      "bytes": 10628,
+      "sha256": "e3a14277357b24b17bb8f1757154254372d7dcf787c379a480edbc9daa41ef54"
+    },
+    {
+      "path": "trailer/public/audio/sfx-move-projectile.wav",
+      "bytes": 11952,
+      "sha256": "a83306d18b0f651139cf18611b9e4f8db737cb7b14cce664b402025f51dfc308"
+    },
+    {
+      "path": "trailer/public/audio/sfx-save.wav",
+      "bytes": 24300,
+      "sha256": "4b2a9468e38e2ca0197d7babf3649e0b701c955813ca4a2febeb36037118820e"
+    },
+    {
+      "path": "trailer/public/audio/sfx-status-slow.wav",
+      "bytes": 20330,
+      "sha256": "201c5fa18939665914dd6822105dd587358b0e8e76c9aedc953c767a37b314c3"
+    },
+    {
+      "path": "trailer/public/audio/sfx-step-grass.wav",
+      "bytes": 3132,
+      "sha256": "cc1ddde190fa654803e9112950a33a2c5cddb4b9427531bf4002a2ffacdcc4e3"
+    },
+    {
+      "path": "trailer/public/audio/sfx-throw.wav",
+      "bytes": 15478,
+      "sha256": "6aa4b32a70d8e4d9eae0fde31461e830c51cb7710c2f29bcaffaad259febce2d"
+    },
+    {
+      "path": "trailer/public/audio/sfx-ui-confirm.wav",
+      "bytes": 9304,
+      "sha256": "3e3b4189595bec0f7d8b7c50b000ad7d41cf5f5aadfd9bcd58efcae31add58ef"
+    },
+    {
+      "path": "trailer/public/audio/sfx-ui-open.wav",
+      "bytes": 8424,
+      "sha256": "9f3445ef9a2910f7f8e15fb8b9a16d512a0fcb436a9ced61c476574b1caf0d2b"
+    },
+    {
+      "path": "trailer/public/audio/sfx-ui-press.wav",
+      "bytes": 4234,
+      "sha256": "79b3750f679edc2c9bb9ac351262536348807de3641f63eaa491ece346976489"
+    },
+    {
+      "path": "trailer/public/audio/sfx-ui-start.wav",
+      "bytes": 23416,
+      "sha256": "69c3c12667cbf7e49930719ad9602e187ef56f00f2590bce3129f1eae18a9cba"
+    },
+    {
+      "path": "trailer/public/opening.png",
+      "bytes": 3182494,
+      "sha256": "009296e1d314436940d58d5291a95718b7a6f45f51082839ba2930145ad042bb"
+    },
+    {
+      "path": "trailer/remotion/Root.tsx",
+      "bytes": 543,
+      "sha256": "f10ebdc697cb76cc4ac4deb17326fe78137b4124c39887a475d4d0d35f3a86c8"
+    },
+    {
+      "path": "trailer/remotion/Trailer.tsx",
+      "bytes": 4205,
+      "sha256": "b3601806b820b1a48b7f689676baa5e09a83546cca38e3829a580d735c037064"
+    },
+    {
+      "path": "trailer/remotion/ambient.d.ts",
+      "bytes": 211,
+      "sha256": "aff0b92ba9fd28fe56cdd6c6b2f55a966cd5d645126d3e3ec133488d4343d94b"
+    },
+    {
+      "path": "trailer/remotion/index.ts",
+      "bytes": 104,
+      "sha256": "f9bc4e836a064aca9c58a681e1dc779b62a4d82894450e8e15d5cdd05840e36e"
+    },
+    {
+      "path": "trailer/render-all.py",
+      "bytes": 688,
+      "sha256": "ca664b913c97aaaefb73c309812f3ac7b0956c1b04f089dc85875440275c5ac0"
+    },
+    {
+      "path": "trailer/render-gameplay.mjs",
+      "bytes": 11650,
+      "sha256": "c39bbebf936068136e53fb0b34551b32197a22c9cdae5104897232c4647191e2"
+    },
+    {
+      "path": "trailer/render-remotion.mjs",
+      "bytes": 1310,
+      "sha256": "18b2903897702ccf8a6d463478f33eecf186b2d65b7e0ae05aa91628b36a85e3"
+    },
+    {
+      "path": "trailer/render-trailer.mjs",
+      "bytes": 7311,
+      "sha256": "586cbd9827da24f0c557bad9e2b2c64da01190f0301a32c1a94fa6d0e460ba39"
+    },
+    {
+      "path": "trailer/requirements.txt",
+      "bytes": 30,
+      "sha256": "bbe7e0d48fd759d782cbcda080791a5af33842b74f2c08ad9730a700a9646fcd"
+    },
+    {
+      "path": "trailer/splash-motion.mjs",
+      "bytes": 4306,
+      "sha256": "d47d45789a11c35bde92ce43b12293c1c46319143feda6c1a537d800d570f84d"
+    },
+    {
+      "path": "trailer/storyboard.json",
+      "bytes": 2626,
+      "sha256": "57ba86ff206f15042d12d5c37d0f1dfb6db248b66d96e2defce9da495a40acfa"
+    },
+    {
+      "path": "trailer/trailer-art.mjs",
+      "bytes": 5408,
+      "sha256": "4f5abadf228d9110d26a1741714e11c80a13896420deb9516139cd7701356a7f"
+    },
+    {
+      "path": "trailer/tsconfig.json",
+      "bytes": 390,
+      "sha256": "1e931aa9cb5243dc3a7dc7f0f85a84d546f34d9b4919bcc2283b0d020f2a2169"
+    },
+    {
+      "path": "trailer/verify-clips.mjs",
+      "bytes": 2019,
+      "sha256": "2eca3cddab3911664f6ba2ea490170a74f7db80fe1c4768b1496106647235643"
+    },
+    {
+      "path": "trailer/wildbound-launch-poster.png",
+      "bytes": 1735941,
+      "sha256": "eb4863f5b7dc2f2f463bbda78aa0c713d8eaafc877ba35545277eb31bcafedae"
+    }
+  ]
+}

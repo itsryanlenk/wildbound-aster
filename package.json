@@ -1,0 +1,22 @@
+{
+  "name": "wildbound-aster",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "itsryanlenk",
+  "description": "Wildbound Field Edition 04: portable game distribution and editable launch trailer.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "node scripts/verify.mjs",
+    "audit:privacy": "node scripts/privacy-audit.mjs",
+    "build": "node scripts/build.mjs",
+    "manifest": "node scripts/manifest.mjs",
+    "publish:github": "node scripts/publish.mjs --publish",
+    "package:release": "node scripts/package-release.mjs"
+  }
+}

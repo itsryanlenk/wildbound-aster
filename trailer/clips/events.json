@@ -1,0 +1,664 @@
+{
+  "01-explore": [
+    {
+      "time": 0,
+      "kind": "toast",
+      "text": "Following the trail to Healing cottage."
+    },
+    {
+      "time": 0.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.767,
+      "kind": "audio",
+      "cue": "heal"
+    },
+    {
+      "time": 1.767,
+      "kind": "toast",
+      "text": "Your whole team is fully restored."
+    },
+    {
+      "time": 1.767,
+      "kind": "audio",
+      "cue": "ui-open"
+    },
+    {
+      "time": 1.8,
+      "kind": "toast",
+      "text": "Following the trail to Fern."
+    },
+    {
+      "time": 2.033,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.3,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.533,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.8,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.033,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.3,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.533,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.8,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.033,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.3,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.533,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.8,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 5.067,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 5.3,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 5.4,
+      "kind": "audio",
+      "cue": "ui-open"
+    }
+  ],
+  "02-discover": [
+    {
+      "time": 0,
+      "kind": "toast",
+      "text": "Following the trail to Mira."
+    },
+    {
+      "time": 0.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.933,
+      "kind": "audio",
+      "cue": "ui-open"
+    },
+    {
+      "time": 1.967,
+      "kind": "toast",
+      "text": "Following the trail to Nori."
+    },
+    {
+      "time": 2.2,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.467,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.7,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.967,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.2,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.467,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.7,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 3.967,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.2,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.467,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.7,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.8,
+      "kind": "audio",
+      "cue": "ui-open"
+    }
+  ],
+  "03-battle": [
+    {
+      "time": 0,
+      "kind": "cry",
+      "speciesId": 16,
+      "mood": "normal"
+    },
+    {
+      "time": 0,
+      "kind": "audio",
+      "cue": "battle"
+    },
+    {
+      "time": 0,
+      "kind": "encounter",
+      "battleKind": "wild",
+      "title": "Alder’s field lesson"
+    },
+    {
+      "time": 0,
+      "kind": "toast",
+      "text": "A safe first encounter. Move closer, attack, dodge a warning, then capture. Neither companion can faint."
+    },
+    {
+      "time": 0,
+      "kind": "audio",
+      "cue": "ui-error"
+    },
+    {
+      "time": 0.833,
+      "kind": "audio",
+      "cue": "move-projectile",
+      "volume": 0.35
+    },
+    {
+      "time": 0.833,
+      "kind": "audio",
+      "cue": "attack-tide",
+      "rate": 1.03,
+      "volume": 0.9
+    },
+    {
+      "time": 0.833,
+      "kind": "cry",
+      "speciesId": 7,
+      "mood": "attack"
+    },
+    {
+      "time": 1,
+      "kind": "audio",
+      "cue": "hit"
+    },
+    {
+      "time": 2,
+      "kind": "audio",
+      "cue": "move-projectile",
+      "volume": 0.35
+    },
+    {
+      "time": 2,
+      "kind": "audio",
+      "cue": "attack-tide",
+      "rate": 1.03,
+      "volume": 0.9
+    },
+    {
+      "time": 2,
+      "kind": "audio",
+      "cue": "enemy-warn",
+      "volume": 0.55
+    },
+    {
+      "time": 2.133,
+      "kind": "audio",
+      "cue": "status-slow",
+      "volume": 0.5
+    },
+    {
+      "time": 2.133,
+      "kind": "audio",
+      "cue": "hit"
+    },
+    {
+      "time": 2.4,
+      "kind": "audio",
+      "cue": "dodge"
+    },
+    {
+      "time": 3,
+      "kind": "audio",
+      "cue": "move-dash",
+      "volume": 0.25
+    },
+    {
+      "time": 3,
+      "kind": "audio",
+      "cue": "attack-neutral",
+      "rate": 0.86,
+      "volume": 0.55
+    },
+    {
+      "time": 5.433,
+      "kind": "audio",
+      "cue": "enemy-warn",
+      "volume": 0.55
+    },
+    {
+      "time": 5.867,
+      "kind": "audio",
+      "cue": "dodge"
+    },
+    {
+      "time": 6.433,
+      "kind": "audio",
+      "cue": "move-burst",
+      "volume": 0.25
+    },
+    {
+      "time": 6.433,
+      "kind": "audio",
+      "cue": "attack-neutral",
+      "rate": 0.86,
+      "volume": 0.55
+    }
+  ],
+  "04-capture": [
+    {
+      "time": 0.8,
+      "kind": "audio",
+      "cue": "throw"
+    },
+    {
+      "time": 1.5,
+      "kind": "audio",
+      "cue": "capture-shake"
+    },
+    {
+      "time": 2.2,
+      "kind": "audio",
+      "cue": "capture-shake"
+    },
+    {
+      "time": 2.9,
+      "kind": "toast",
+      "text": "Caught Burrowbop! Welcome to the team."
+    },
+    {
+      "time": 2.9,
+      "kind": "audio",
+      "cue": "capture-success"
+    },
+    {
+      "time": 2.9,
+      "kind": "stinger",
+      "cue": "capture"
+    },
+    {
+      "time": 2.9,
+      "kind": "cry",
+      "speciesId": 16,
+      "mood": "normal"
+    },
+    {
+      "time": 2.9,
+      "kind": "moment",
+      "type": "capture",
+      "speciesId": 16,
+      "level": 3,
+      "box": false
+    },
+    {
+      "time": 4.033,
+      "kind": "toast",
+      "text": "Go, Burrowbop!"
+    },
+    {
+      "time": 4.033,
+      "kind": "audio",
+      "cue": "select"
+    },
+    {
+      "time": 4.033,
+      "kind": "cry",
+      "speciesId": 16,
+      "mood": "normal"
+    },
+    {
+      "time": 4.033,
+      "kind": "toast",
+      "text": "Following the trail to Professor Alder."
+    },
+    {
+      "time": 4.267,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 4.433,
+      "kind": "toast",
+      "text": "Professor Alder gave you 2 Gleam Prisms."
+    },
+    {
+      "time": 4.433,
+      "kind": "audio",
+      "cue": "ui-open"
+    }
+  ],
+  "05-beacon": [
+    {
+      "time": 0,
+      "kind": "toast",
+      "text": "Following the trail to the First Beacon."
+    },
+    {
+      "time": 0.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 2.4,
+      "kind": "audio",
+      "cue": "ui-open"
+    }
+  ],
+  "06-save": [
+    {
+      "time": 0,
+      "kind": "toast",
+      "text": "Following the trail to Healing cottage."
+    },
+    {
+      "time": 0.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 0.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.233,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.5,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.733,
+      "kind": "audio",
+      "cue": "step-grass",
+      "volume": 0.2
+    },
+    {
+      "time": 1.767,
+      "kind": "audio",
+      "cue": "heal"
+    },
+    {
+      "time": 1.767,
+      "kind": "toast",
+      "text": "Your whole team is fully restored."
+    },
+    {
+      "time": 1.767,
+      "kind": "audio",
+      "cue": "ui-open"
+    },
+    {
+      "time": 2.333,
+      "kind": "audio",
+      "cue": "heal"
+    },
+    {
+      "time": 2.333,
+      "kind": "toast",
+      "text": "Your whole team is fully restored."
+    },
+    {
+      "time": 3.5,
+      "kind": "audio",
+      "cue": "save"
+    }
+  ],
+  "07-evolution": [
+    {
+      "time": 2.4,
+      "kind": "audio",
+      "cue": "evolve"
+    },
+    {
+      "time": 2.4,
+      "kind": "moment",
+      "type": "evolution",
+      "speciesId": 2,
+      "from": 1,
+      "level": 8,
+      "fromLevel": 7
+    },
+    {
+      "time": 2.4,
+      "kind": "audio",
+      "cue": "heal"
+    }
+  ]
+}

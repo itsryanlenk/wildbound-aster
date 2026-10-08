@@ -21,3 +21,16 @@ Thumbs.db
 wildbound-save*.json
 browser-profile/
 saves/
+
+*.save.json
+*.ttf
+*.otf
+*.woff
+*.woff2
+coverage/
+playwright-report/
+test-results/
+trailer/work/
+trailer/public/clips/
+trailer/wildbound-launch-trailer*.mp4
+trailer/wildbound-orchestral-score.mp3

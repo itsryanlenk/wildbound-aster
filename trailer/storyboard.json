@@ -1,0 +1,26 @@
+{
+  "title": "Wildbound: Echoes of Aster — Launch Trailer",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "duration": 50,
+  "url": "wildbound-aster.itsryanlenk.chatgpt.site",
+  "palette": {"ink":"#071b20","cream":"#fff4d7","gold":"#f6ce72","mint":"#bce3bf"},
+  "segments": [
+    {"id":"opener","kind":"brand","start":0,"duration":5,"asset":"public/opening.png","kicker":"AN ORIGINAL MONSTER ADVENTURE","headline":"WILDBOUND","subtitle":"ECHOES OF ASTER","line":"Find your companion. Find your courage."},
+    {"id":"explore","kind":"gameplay","start":5,"duration":7,"asset":"clips/01-explore.mp4","kicker":"NINE REGIONS TO DISCOVER","headline":"FIND YOUR OWN PATH","line":"A living world. A companion beside you."},
+    {"id":"discover","kind":"gameplay","start":12,"duration":6,"asset":"clips/02-discover.mp4","shots":[{"asset":"clips/02-discover.mp4","sourceStart":0,"duration":3},{"asset":"clips/07-evolution.mp4","sourceStart":1.5,"duration":3}],"kicker":"COLLECT & EVOLVE","headline":"151 CREATURES","line":"Find the companion that feels like yours."},
+    {"id":"battle","kind":"gameplay","start":18,"duration":7,"asset":"clips/03-battle.mp4","kicker":"REAL-TIME COMBAT","headline":"MOVE. AIM. OUTSMART.","line":"Read the warning. Dodge. Strike back."},
+    {"id":"capture","kind":"gameplay","start":25,"duration":7,"asset":"clips/04-capture.mp4","kicker":"REAL-TIME CAPTURE","headline":"MAKE THE CATCH","line":"Weaken wild creatures. Make a new bond."},
+    {"id":"beacon","kind":"gameplay","start":32,"duration":6,"asset":"clips/05-beacon.mp4","kicker":"THE EIGHT BEACONS","headline":"RESTORE ASTER’S SONG","line":"Eight trials. One journey worth taking."},
+    {"id":"save","kind":"gameplay","start":38,"duration":5,"asset":"clips/06-save.mp4","kicker":"YOUR OWN LOCAL SAVE","headline":"YOUR JOURNEY. YOUR SAVE.","line":"Progress stays in this browser."},
+    {"id":"closing","kind":"closing","start":43,"duration":7,"asset":"public/opening.png","kicker":"YOUR NEXT ADVENTURE IS WAITING","headline":"WILDBOUND","subtitle":"ECHOES OF ASTER","line":"Play in your browser"}
+  ],
+  "claims": [
+    {"claim":"151 creatures","evidence":"catalog.json species.length = 151"},
+    {"claim":"nine regions","evidence":"catalog.json regions.length = 9"},
+    {"claim":"eight beacons / trials","evidence":"catalog.json wardens.length = 8 and story beacon premise"},
+    {"claim":"real-time combat and capture","evidence":"Clips captured from the actual Game.update/render engine, including real capture state transitions."},
+    {"claim":"local save","evidence":"engine.ts persists game progress with localStorage."}
+  ]
+}

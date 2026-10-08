@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible gameplay, layout, or packaging problem.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach personal saves, credentials, contact details, or uncropped private browser content."
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device
+      description: Browser version, operating system, and viewport dimensions; no identifying device IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected versus actual behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: distribution
+    attributes:
+      label: Version used
+      options: [Hosted game, Downloaded Field Edition 04, Local repository]
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy review
+      options:
+        - label: I removed personal information and secrets from this report.
+          required: true

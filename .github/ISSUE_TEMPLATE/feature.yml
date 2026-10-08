@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an improvement and the player problem it would solve.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What player problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and tradeoffs
+    validations:
+      required: true

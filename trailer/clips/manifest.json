@@ -1,0 +1,363 @@
+{
+  "status": "final",
+  "renderer": "Actual Game.update/render; native Canvas software fallback",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "source": "Original game engine; unbundled source is not included in this recovery repository.",
+  "clips": [
+    {
+      "id": "01-explore",
+      "title": "Meadowreach trail",
+      "duration": 7,
+      "frames": 210,
+      "fixture": {
+        "region": 0,
+        "speciesId": 1,
+        "species": "Spriglit",
+        "level": 5,
+        "seed": 121,
+        "postgame": false
+      },
+      "output": "clips/01-explore.mp4",
+      "actions": [
+        {
+          "time": 0,
+          "name": "go-to-healing-cottage"
+        },
+        {
+          "time": 1.8,
+          "name": "close-dialogue",
+          "speaker": "Nurse Luma"
+        },
+        {
+          "time": 1.8,
+          "name": "go-to-beacon-warden"
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 1,
+            "level": 5,
+            "hp": 67,
+            "xp": 0
+          }
+        ],
+        "battle": false,
+        "captures": 0,
+        "lesson": null,
+        "lessonComplete": false,
+        "player": {
+          "x": 852.4495366233903,
+          "y": 311.28783559891826
+        }
+      }
+    },
+    {
+      "id": "02-discover",
+      "title": "Tideglass Coast",
+      "duration": 6,
+      "frames": 180,
+      "fixture": {
+        "region": 2,
+        "speciesId": 8,
+        "species": "Rivermere",
+        "level": 15,
+        "seed": 445,
+        "postgame": false
+      },
+      "output": "clips/02-discover.mp4",
+      "actions": [
+        {
+          "time": 0,
+          "name": "go-to-mira"
+        },
+        {
+          "time": 1.967,
+          "name": "close-dialogue",
+          "speaker": "Mira"
+        },
+        {
+          "time": 1.967,
+          "name": "go-to-beacon-warden"
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 8,
+            "level": 15,
+            "hp": 142,
+            "xp": 0
+          }
+        ],
+        "battle": false,
+        "captures": 0,
+        "lesson": null,
+        "lessonComplete": false,
+        "player": {
+          "x": 862.0261208319913,
+          "y": 310.9446721135098
+        }
+      }
+    },
+    {
+      "id": "03-battle",
+      "title": "Alder\u2019s field lesson \u2014 attacks and dodge",
+      "duration": 7,
+      "frames": 210,
+      "fixture": {
+        "region": 0,
+        "speciesId": 7,
+        "species": "Bubblot",
+        "level": 5,
+        "seed": 987,
+        "postgame": false,
+        "lesson": true,
+        "enemy": "Burrowbop",
+        "enemyLevel": 3
+      },
+      "output": "clips/03-battle.mp4",
+      "actions": [
+        {
+          "time": 0,
+          "name": "begin-field-lesson"
+        },
+        {
+          "time": 0.833,
+          "name": "player-attack",
+          "move": "Bubble Shot",
+          "enemyHPBefore": 52
+        },
+        {
+          "time": 2,
+          "name": "player-attack",
+          "move": "Bubble Shot",
+          "enemyHPBefore": 37
+        },
+        {
+          "time": 2.4,
+          "name": "dodge-warning",
+          "move": "Body Slam"
+        },
+        {
+          "time": 5.867,
+          "name": "dodge-warning",
+          "move": "Echo Burst"
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 7,
+            "level": 5,
+            "hp": 68,
+            "xp": 0
+          }
+        ],
+        "battle": true,
+        "captures": 0,
+        "lesson": {
+          "hit": true,
+          "dodge": true
+        },
+        "lessonComplete": false,
+        "player": {
+          "x": 512.4516936456049,
+          "y": 660
+        }
+      }
+    },
+    {
+      "id": "04-capture",
+      "title": "A new companion",
+      "duration": 7,
+      "frames": 210,
+      "fixture": {
+        "continues": "03-battle",
+        "captureChance": 1,
+        "enemy": "Burrowbop"
+      },
+      "output": "clips/04-capture.mp4",
+      "actions": [
+        {
+          "time": 0.8,
+          "name": "throw-prism",
+          "chance": 1
+        },
+        {
+          "time": 4.033,
+          "name": "new-companion-follows",
+          "speciesId": 16
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 7,
+            "level": 5,
+            "hp": 68,
+            "xp": 66
+          },
+          {
+            "speciesId": 16,
+            "level": 3,
+            "hp": 52,
+            "xp": 66
+          }
+        ],
+        "battle": false,
+        "captures": 1,
+        "lesson": null,
+        "lessonComplete": true,
+        "player": {
+          "x": 546.0218730692346,
+          "y": 425.3250511541989
+        }
+      }
+    },
+    {
+      "id": "05-beacon",
+      "title": "The First Beacon",
+      "duration": 6,
+      "frames": 180,
+      "fixture": {
+        "region": 8,
+        "speciesId": 151,
+        "species": "Asterion",
+        "level": 42,
+        "seed": 712,
+        "postgame": true
+      },
+      "output": "clips/05-beacon.mp4",
+      "actions": [
+        {
+          "time": 0,
+          "name": "go-to-first-beacon"
+        },
+        {
+          "time": 4.833,
+          "name": "close-dialogue",
+          "speaker": "The First Beacon"
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 151,
+            "level": 42,
+            "hp": 329,
+            "xp": 0
+          }
+        ],
+        "battle": false,
+        "captures": 0,
+        "lesson": null,
+        "lessonComplete": false,
+        "player": {
+          "x": 873.2654613146711,
+          "y": 313.3504942637237
+        }
+      }
+    },
+    {
+      "id": "06-save",
+      "title": "Home on the trail",
+      "duration": 5,
+      "frames": 150,
+      "fixture": {
+        "region": 0,
+        "speciesId": 1,
+        "species": "Spriglit",
+        "level": 5,
+        "seed": 546,
+        "postgame": false
+      },
+      "output": "clips/06-save.mp4",
+      "actions": [
+        {
+          "time": 0,
+          "name": "go-to-healing-cottage"
+        },
+        {
+          "time": 2.333,
+          "name": "heal-team"
+        },
+        {
+          "time": 3.5,
+          "name": "save-local-adventure",
+          "saved": true
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 1,
+            "level": 5,
+            "hp": 67,
+            "xp": 0
+          }
+        ],
+        "battle": false,
+        "captures": 0,
+        "lesson": null,
+        "lessonComplete": false,
+        "player": {
+          "x": 327.3,
+          "y": 315.2
+        }
+      }
+    },
+    {
+      "id": "07-evolution",
+      "title": "Growth Candy \u2014 Spriglit evolves into Fernix",
+      "duration": 6,
+      "frames": 180,
+      "fixture": {
+        "region": 0,
+        "speciesId": 1,
+        "species": "Spriglit",
+        "level": 7,
+        "seed": 534,
+        "postgame": false,
+        "position": {
+          "x": 620,
+          "y": 228.9
+        }
+      },
+      "output": "clips/07-evolution.mp4",
+      "actions": [
+        {
+          "time": 0,
+          "name": "rest-on-upper-meadow-trail"
+        },
+        {
+          "time": 2.4,
+          "name": "use-growth-candy",
+          "from": 1,
+          "to": 2,
+          "level": 8
+        }
+      ],
+      "end": {
+        "party": [
+          {
+            "speciesId": 2,
+            "level": 8,
+            "hp": 99,
+            "xp": 0
+          }
+        ],
+        "battle": false,
+        "captures": 0,
+        "lesson": null,
+        "lessonComplete": false,
+        "player": {
+          "x": 620,
+          "y": 228.9
+        }
+      }
+    }
+  ]
+}
