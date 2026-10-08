@@ -1,0 +1,79 @@
+{
+  "source": "https://wildbound-aster.itsryanlenk.chatgpt.site/",
+  "method": "Playwright Chromium, fresh anonymous contexts, interface interactions only",
+  "playerName": "Ranger (synthetic)",
+  "physicalDeviceTest": false,
+  "reducedMotion": true,
+  "images": [
+    {
+      "file": "title.jpg",
+      "description": "Animated title screen, captured in a fresh anonymous browser context.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bytes": 316756,
+      "sha256": "14b76ebe7f08073b379687a0eb07fe6c8e90ddd4df7b162e72b59e7ccce177c8"
+    },
+    {
+      "file": "companions.jpg",
+      "description": "Starter selection with Spriglit, Cindlet and Bubblot; the player name is synthetic.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bytes": 109184,
+      "sha256": "12b672f48f63424036347e0ba5c59fabe401eb02aa7f7c11d645bb8ac3402060"
+    },
+    {
+      "file": "desktop.jpg",
+      "description": "Actual desktop exploration in Meadowreach.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bytes": 444815,
+      "sha256": "644eff7fdb25811d1a7ade0bf592aa0c2033a82b513551d8576c5fb17c90bc96"
+    },
+    {
+      "file": "field-guide.jpg",
+      "description": "The in-game field guide in an early-game adventure.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bytes": 143122,
+      "sha256": "e30edcccff0fe682ef2bb1053dba6c0bfd8dd282bc4a43a5e94fb49eb17ba1ab"
+    },
+    {
+      "file": "desktop-battle.jpg",
+      "description": "Actual guided first battle in the desktop interface.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bytes": 238595,
+      "sha256": "80dd948c346d069c55867593aa6972c0d02703077d1b64a87442da117993aa4e"
+    },
+    {
+      "file": "phone.jpg",
+      "description": "Actual exploration at a 390 by 844 touch-enabled browser viewport.",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bytes": 104647,
+      "sha256": "0b5cc025e96fba20e2b75ff94675d64af0d87a266c4f4bd4a9a3089c653973d8"
+    },
+    {
+      "file": "phone-battle.jpg",
+      "description": "Guided battle in the portrait touch layout, captured using browser emulation.",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bytes": 77443,
+      "sha256": "3e48e2abb130a7a3f6e6041ea35ede985914fa274f913d7bf3a8647bf687b2d6"
+    }
+  ]
+}
