@@ -1,0 +1,33 @@
+name: Check public distribution source
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/check-distribution-source.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check the approved public game host
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.error, hashlib, json, re
+          base = 'https://wildbound-aster.itsryanlenk.chatgpt.site/'
+          paths = ['', 'offline-release.json', 'sw.js', 'assets/portable-XQQ-YB3t.js', 'art/opening.png']
+          for path in paths:
+              try:
+                  req = urllib.request.Request(base + path, headers={'User-Agent':'Wildbound-release-verification/0.4.0'})
+                  with urllib.request.urlopen(req, timeout=25) as response:
+                      data = response.read(8 * 1024 * 1024 + 1)
+                      if len(data) > 8 * 1024 * 1024: raise ValueError('Response exceeds size limit')
+                      result = {'path':path or '/', 'status':response.status, 'type':response.headers.get('Content-Type'), 'bytes':len(data), 'sha256':hashlib.sha256(data).hexdigest(), 'same_origin':response.url.startswith(base)}
+                      if path == '' and response.url.startswith(base):
+                          result['scripts'] = re.findall(r'<script[^>]+src=[\"\']([^\"\']+)',data.decode('utf8','replace'))
+                      print(json.dumps(result))
+              except Exception as exc:
+                  print(json.dumps({'path':path or '/', 'error':type(exc).__name__}))
+          PY
