@@ -38,6 +38,16 @@
       "sha256": "51d286672f7ec05bdeed8982c0aca107c46826dc8f383f203dde7e1c9208fd56"
     },
     {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 3485,
+      "sha256": "b67bdd30802d23b4a00b2b228ca7c308b9ccf97a777e58b6cf97f2df2778010f"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1243,
+      "sha256": "0c4ab58c4369aae217b740285a96eada25d74a6360628ca106176b41915e07e2"
+    },
+    {
       "path": ".github/workflows/readme-gallery.yml",
       "bytes": 2445,
       "sha256": "1652ae6f56e60ededad2968536b3c84e6455f2ec6e680d72f084f4523c03ea29"
