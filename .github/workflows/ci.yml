@@ -1,0 +1,85 @@
+name: Verify Wildbound distribution
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  initial-manifest:
+    if: github.event_name == 'push' && github.actor == 'itsryanlenk' && github.event.head_commit.message == 'Enable continuous verification and reconcile the initial distribution manifest'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    outputs:
+      commit: ${{ steps.commit.outputs.commit }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          fetch-depth: 3
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Verify that only the two reviewed automation files were added
+        run: |
+          test "$(git rev-parse HEAD~2)" = fd828af8f557c3e4a3d39f25ca41690dff6ddeb0
+          node --input-type=module - <<'JS'
+          import assert from 'node:assert/strict';
+          import {files,json,read,sha} from './scripts/lib.mjs';
+          const expected=json('PACKAGE-MANIFEST.json').files;
+          const known=new Set(expected.map(f=>f.path));
+          const added=files().filter(p=>p!=='PACKAGE-MANIFEST.json'&&!known.has(p));
+          assert.deepEqual(added.sort(),['.github/workflows/ci.yml','.github/workflows/pages.yml']);
+          for(const f of expected){const b=read(f.path);assert.equal(b.length,f.bytes,f.path);assert.equal(sha(b),f.sha256,f.path);}
+          JS
+          npm run manifest
+          npm test
+          npm run audit:privacy
+          npm run build
+      - name: Commit only the reconciled manifest with a no-reply identity
+        id: commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_PROMPT_DISABLED: '1'
+        run: |
+          git config --local user.name itsryanlenk
+          git config --local user.email 276722878+itsryanlenk@users.noreply.github.com
+          git config --local commit.gpgsign false
+          git config --local core.hooksPath /dev/null
+          git add -- PACKAGE-MANIFEST.json
+          git commit -m 'Record the verified CI and Pages files in the distribution manifest'
+          git -c 'credential.helper=!gh auth git-credential' push origin HEAD:main
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+  verify:
+    needs: initial-manifest
+    if: always() && (needs.initial-manifest.result == 'success' || needs.initial-manifest.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          ref: ${{ needs.initial-manifest.outputs.commit || github.sha }}
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Check inventory, privacy, distribution tests and the static build
+        run: |
+          npm run verify
+          npm run audit:privacy
+          npm test
+          npm run build
+      - name: Retain the verified static build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: wildbound-static-build
+          path: dist
+          include-hidden-files: true
+          retention-days: 7
+          if-no-files-found: error
