@@ -1,0 +1,60 @@
+name: Capture README gameplay gallery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/readme-gallery.yml'
+      - '.github/scripts/capture-gallery.mjs'
+permissions:
+  contents: write
+concurrency:
+  group: wildbound-readme-gallery
+  cancel-in-progress: false
+jobs:
+  screenshots:
+    if: github.repository == 'itsryanlenk/wildbound-aster'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the project without persisted credentials
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Install the pinned screenshot tool in a temporary directory
+        run: |
+          mkdir -p "$RUNNER_TEMP/wildbound-gallery"
+          cp .github/scripts/capture-gallery.mjs "$RUNNER_TEMP/wildbound-gallery/capture.mjs"
+          cd "$RUNNER_TEMP/wildbound-gallery"
+          npm install --no-audit --no-fund --ignore-scripts playwright@1.64.0
+          npx playwright install --with-deps chromium
+      - name: Capture genuine desktop and touch-layout screenshots
+        env:
+          GALLERY_DIR: ${{ github.workspace }}/docs/images
+        run: node "$RUNNER_TEMP/wildbound-gallery/capture.mjs"
+      - name: Preserve the captured screenshots for review
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: wildbound-readme-gallery
+          path: docs/images/
+          if-no-files-found: warn
+          retention-days: 7
+      - name: Commit only the complete gallery with a no-reply identity
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_HOST: github.com
+        run: |
+          test -f docs/images/capture-manifest.json
+          git config --local user.name itsryanlenk
+          git config --local user.email '276722878+itsryanlenk@users.noreply.github.com'
+          git config --local commit.gpgsign false
+          git add -- docs/images
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Add real desktop and mobile gameplay screenshots'
+          git -c credential.helper='!gh auth git-credential' pull --rebase origin main
+          git -c credential.helper='!gh auth git-credential' push origin HEAD:main
